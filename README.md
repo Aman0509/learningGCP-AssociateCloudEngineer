@@ -28,6 +28,46 @@
 
     - [Exposing a Public Website using Cloud Storage](#exposing-a-public-website-using-cloud-storage)
 
+- [Organizations and IAM - Organizing Google Cloud Resources](#organizations-and-iam---organizing-google-cloud-resources)
+
+    - [Organizing Google Cloud Resources - Projects, Folders and Organization](#organizing-google-cloud-resources---projects-folders-and-organization)
+
+    - [Exploring Billing Accounts](#exploring-billing-accounts)
+
+    - [Understanding IAM Best Practice](#understanding-iam-best-practice)
+
+    - [Understanding User Identity Management in GCP](#understanding-user-identity-management-in-gcp)
+
+    - [Exploring IAM Members and Identities](#exploring-iam-members-and-identities)
+
+    - [Understanding Organization Policy Service](#understanding-organization-policy-service)
+
+    - [Exploring IAM policy at multiple levels - Resource Hierarchy](#exploring-iam-policy-at-multiple-levels---resource-hierarchy)
+
+    - [Exploring IAM Predefined Roles - Organization, Billing and Project](#exploring-iam-predefined-roles---organization-billing-and-project)
+
+    - [Exploring IAM Predefined Roles - Google Compute Engine](#exploring-iam-predefined-roles---google-compute-engine)
+
+    - [Exploring IAM Predefined Roles - Google App Engine](#exploring-iam-predefined-roles---google-app-engine)
+
+    - [Exploring IAM Predefined Roles - Scenarios](#exploring-iam-predefined-roles---scenarios)
+
+    - [Exploring IAM Predefined Roles - Google Kubernetes Engine](#exploring-iam-predefined-roles---google-kubernetes-engine)
+
+    - [Exploring IAM Predefined Roles - Google Cloud Storage](#exploring-iam-predefined-roles---google-cloud-storage)
+
+    - [Exploring IAM Predefined Roles - Google Cloud BigQuery](#exploring-iam-predefined-roles---google-cloud-bigquery)
+
+    - [Exploring IAM Predefined Roles - Logging Service Accounts](#exploring-iam-predefined-roles---logging-service-accounts)
+
+    - [Other Important IAM Roles](#other-important-iam-roles)
+
+    - [SSHing into Linux VMs](#sshing-into-linux-vms)
+
+    - [Exploring IAM Scenarios](#exploring-iam-scenarios)
+
+- [References](#references)
+
 ## Authentication & Authorization in Google Could with Cloud IAM
 
 ### Introduction
@@ -73,8 +113,6 @@
             - from a specific IP address
 
             - during a specific time window
-
-<strong><ins>Example</ins><strong>
 
 ***Scenario***
 
@@ -253,6 +291,117 @@ Suppose, you want to expose buckets, let's say, in a public website, then below 
 Readings:
 
 - [Make Data Public - Official Docs](https://cloud.google.com/storage/docs/access-control/making-data-public)
+
+## Organizations and IAM - Organizing Google Cloud Resources
+
+### Organizing Google Cloud Resources - Projects, Folders and Organization
+
+![in28minutes slide image](other/images/organisation_and_iam/1_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/2_organisation_and_iam.png)
+
+> Note
+>
+> In a free tier, we don't have organization and folders. We directly create projects.
+
+Readings:
+
+- [Resource hierarchy - Official Docs](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
+
+### Exploring Billing Accounts
+
+![in28minutes slide image](other/images/organisation_and_iam/3_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/4_organisation_and_iam.png)
+
+### Understanding IAM Best Practice
+
+![in28minutes slide image](other/images/organisation_and_iam/5_organisation_and_iam.png)
+
+### Understanding User Identity Management in GCP
+
+![in28minutes slide image](other/images/organisation_and_iam/6_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/7_organisation_and_iam.png)
+
+### Exploring IAM Members and Identities
+
+Let's look at different types of IAM Members or Identities:
+
+![in28minutes slide image](other/images/organisation_and_iam/8_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/9_organisation_and_iam.png)
+
+Readings:
+
+- [Overview of Cloud Identity](https://cloud.google.com/identity/docs/overview)
+- [Single Sign-on vs. Federated Identity Management](https://www.pingidentity.com/en/resources/blog/post/sso-vs-federated-identity-management.html#:~:text=Federated%20identity%20management%2C%20also%20known,and%20authenticate%20users%20across%20domains.)
+
+### Understanding Organization Policy Service
+
+![in28minutes slide image](other/images/organisation_and_iam/10_organisation_and_iam.png)
+
+> Note
+>
+> Organization policy always overrides whatever is configured in IAM. So, if an organization policy prohibits the creation of resources in, let's say, a specific region even though a user might have that access through IAM, he will not able to create the resource in that specific region because Organization policy has the highest priority.
+
+### Exploring IAM policy at multiple levels - Resource Hierarchy
+
+![in28minutes slide image](other/images/organisation_and_iam/11_organisation_and_iam.png)
+
+Readings:
+
+- [What is Identity and Access Management in Google Cloud?](https://www.educative.io/answers/what-is-identity-and-access-management-in-google-cloud)
+
+### Exploring IAM Predefined Roles - Organization, Billing and Project
+
+![in28minutes slide image](other/images/organisation_and_iam/12_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/13_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/14_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Google Compute Engine
+
+![in28minutes slide image](other/images/organisation_and_iam/15_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Google App Engine
+
+![in28minutes slide image](other/images/organisation_and_iam/16_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Scenarios
+
+![in28minutes slide image](other/images/organisation_and_iam/17_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Google Kubernetes Engine
+
+![in28minutes slide image](other/images/organisation_and_iam/18_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Google Cloud Storage
+
+![in28minutes slide image](other/images/organisation_and_iam/19_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Google Cloud BigQuery
+
+![in28minutes slide image](other/images/organisation_and_iam/20_organisation_and_iam.png)
+
+### Exploring IAM Predefined Roles - Logging Service Accounts
+
+![in28minutes slide image](other/images/organisation_and_iam/21_organisation_and_iam.png)
+
+### Other Important IAM Roles
+
+![in28minutes slide image](other/images/organisation_and_iam/22_organisation_and_iam.png)
+
+### SSHing into Linux VMs
+
+![in28minutes slide image](other/images/organisation_and_iam/23_organisation_and_iam.png)
+
+![in28minutes slide image](other/images/organisation_and_iam/24_organisation_and_iam.png)
+
+### Exploring IAM Scenarios
+
+![in28minutes slide image](other/images/organisation_and_iam/25_organisation_and_iam.png)
 
 ## References
 
