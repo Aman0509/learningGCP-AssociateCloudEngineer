@@ -66,6 +66,8 @@
 
     - [Exploring IAM Scenarios](#exploring-iam-scenarios)
 
+- [Exploring Google Cloud Platform - GCP - Pricing Calculator](#exploring-google-cloud-platform---gcp---pricing-calculator)
+
 - [References](#references)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
@@ -182,19 +184,19 @@ Readings:
 
 Let's play with roles. For that, type roles in search bar and press enter. You will be presented with varieties of roles available in GCP. Let's see one role of each category.
 
-![cloud iam - personal](other/images/Cloud_IAM/1_cloud_iam.png)
+![cloud iam - personal](other/images/cloud_iam/1_cloud_iam.png)
 
 **1. Basic Roles**
 
 In filter, type ```Name:roles/viewer``` and you will see more than 2000 permissions are associated with this role. Analyze all such permissions associated with it.
 
-![cloud iam - personal](other/images/Cloud_IAM/2_cloud_iam.png)
+![cloud iam - personal](other/images/cloud_iam/2_cloud_iam.png)
 
 **2. Predefined Roles**
 
 In filter, type ```Storage Admin Object``` and you will see more than 10 permissions are associated with this role. Analyze all such permissions associated with it.
 
-![cloud iam - personal](other/images/Cloud_IAM/3_cloud_iam.png)
+![cloud iam - personal](other/images/cloud_iam/3_cloud_iam.png)
 
 **3. Custom Roles**
 
@@ -202,11 +204,11 @@ Follow [this link](https://docs.cloudera.com/cdp-private-cloud-base/7.1.3/cloud-
 
 ### Exploring Cloud IAM - Members, Role and Policy
 
-![in28minutes slide image](other/images/Cloud_IAM/4_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/4_cloud_iam.png)
 
-![in28minutes slide image](other/images/Cloud_IAM/5_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/5_cloud_iam.png)
 
-![in28minutes slide image](other/images/Cloud_IAM/6_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/6_cloud_iam.png)
 
 ### Demo - Playing with IAM (DIY)
 
@@ -222,11 +224,11 @@ Below things are covered in this demo:
 
 Below are few important commands used to perform IAM related tasks:
 
-![in28minutes slide image](other/images/Cloud_IAM/7_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/7_cloud_iam.png)
 
 ### Getting started with Service Accounts
 
-![in28minutes slide image](other/images/Cloud_IAM/8_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/8_cloud_iam.png)
 
 Readings:
 
@@ -248,27 +250,27 @@ An application is running on VM and we want to give this VM access to create clo
 
 **Use Case 1 - VM using Cloud Storage**
 
-![in28minutes slide image](other/images/Cloud_IAM/9_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/9_cloud_iam.png)
 
 **Use Case 2 - Connect on premises machine to cloud storage**
 
 Until now, we have been talking about resources which are present in Google Cloud. Now, let's suppose there is a server present outside GCP.
 
-![in28minutes slide image](other/images/Cloud_IAM/10_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/10_cloud_iam.png)
 
 **Use Case 3 - Connect on premises machine to cloud storage but for few hours**
 
-![in28minutes slide image](other/images/Cloud_IAM/11_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/11_cloud_iam.png)
 
 ### Scenarios - Service Accounts
 
-![in28minutes slide image](other/images/Cloud_IAM/12_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/12_cloud_iam.png)
 
 ### ACL(Access Control Lists) - Part of Cloud Storage
 
-![in28minutes slide image](other/images/Cloud_IAM/13_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/13_cloud_iam.png)
 
-![in28minutes slide image](other/images/Cloud_IAM/14_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/14_cloud_iam.png)
 
 Readings:
 
@@ -276,7 +278,7 @@ Readings:
 
 ### Signed URLs - Part of Cloud Storage
 
-![in28minutes slide image](other/images/Cloud_IAM/15_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/15_cloud_iam.png)
 
 Readings:
 
@@ -286,7 +288,7 @@ Readings:
 
 Suppose, you want to expose buckets, let's say, in a public website, then below are the steps to do so:
 
-![in28minutes slide image](other/images/Cloud_IAM/16_cloud_iam.png)
+![in28minutes slide image](other/images/cloud_iam/16_cloud_iam.png)
 
 Readings:
 
@@ -403,6 +405,12 @@ Readings:
 
 ![in28minutes slide image](other/images/organisation_and_iam/25_organisation_and_iam.png)
 
+## Exploring Google Cloud Platform - GCP - Pricing Calculator
+
+![in28minutes slide image](other/images/pricing_calculator/1_pricing_calculator.png)
+
+Click here to access [Google Price Calculator](https://cloud.google.com/products/calculator).
+
 ## References
 
-- [GCP Associate Cloud Engineer - Google Cloud Certification -  in28Minutes Official, Ranga Karanam | GCP Certification - Google Cloud Engineer & Architect](https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/)
+- [GCP Associate Cloud Engineer - Google Cloud Certification - in28Minutes Official, Ranga Karanam | GCP Certification - Google Cloud Engineer & Architect](https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/)
