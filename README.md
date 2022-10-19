@@ -28,6 +28,22 @@
 
     - [Exposing a Public Website using Cloud Storage](#exposing-a-public-website-using-cloud-storage)
 
+- [Private Networks in Google Cloud - Cloud VPC](#private-networks-in-google-cloud---cloud-vpc)
+
+    - [Understanding the need for Google Cloud VPC - Virtual Private Cloud](#understanding-the-need-for-google-cloud-vpc---virtual-private-cloud)
+
+    - [Understanding the need for VPC subnets](#understanding-the-need-for-vpc-subnets)
+
+    - [Creating VPCs and Subnets in GCP](#creating-vpcs-and-subnets-in-gcp)
+
+    - [Understanding Firewall Rules in GCP](#understanding-firewall-rules-in-gcp)
+
+    - [Getting Started with Shared VPC](#getting-started-with-shared-vpc)
+
+    - [Getting Started with VPC Peering](#getting-started-with-vpc-peering)
+
+    - [Implementing Hybrid Cloud with Cloud VPN and Cloud Interconnect](#implementing-hybrid-cloud-with-cloud-vpn-and-cloud-interconnect)
+
 - [Organizations and IAM - Organizing Google Cloud Resources](#organizations-and-iam---organizing-google-cloud-resources)
 
     - [Organizing Google Cloud Resources - Projects, Folders and Organization](#organizing-google-cloud-resources---projects-folders-and-organization)
@@ -293,6 +309,72 @@ Suppose, you want to expose buckets, let's say, in a public website, then below 
 Readings:
 
 - [Make Data Public - Official Docs](https://cloud.google.com/storage/docs/access-control/making-data-public)
+
+## Private Networks in Google Cloud - Cloud VPC
+
+### Understanding the need for Google Cloud VPC - Virtual Private Cloud
+
+![in28minutes slide image](other/images/cloud_vpc/1_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/2_cloud_vpc.png)
+
+Readings:
+
+- [Google Cloud VPC (Virtual Private Cloud) for Beginners - K21Academy](https://k21academy.com/google-cloud/google-cloud-vpc/)
+
+### Understanding the need for VPC subnets
+
+![in28minutes slide image](other/images/cloud_vpc/3_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/4_cloud_vpc.png)
+
+Readings:
+
+- [Subnet Mask - Explained (YouTube)](https://www.youtube.com/watch?v=s_Ntt6eTn94)
+- [Subnetting in Networking | Subnetting Examples](https://www.gatevidyalay.com/subnetting-ip-subnetting-examples/)
+
+### Creating VPCs and Subnets in GCP
+
+![in28minutes slide image](other/images/cloud_vpc/5_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/6_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/7_cloud_vpc.png)
+
+Follow below links to see the creation of VPCs in GCP
+
+- [How to Create VPC (Virtual Private Cloud) Network in GCP - linuxtechi](https://www.linuxtechi.com/create-vpc-network-in-gcp-google-cloud/)
+- [VPC Creation on Google Cloud Platform(GCP) - Medium](https://medium.com/petabytz/vpc-creation-on-google-cloud-platform-gcp-67fa397c1106)
+
+Readings:
+
+- [CIDR Range Visualizer](https://cidr.xyz/)
+
+### Understanding Firewall Rules in GCP
+
+![in28minutes slide image](other/images/cloud_vpc/8_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/9_cloud_vpc.png)
+
+### Getting Started with Shared VPC
+
+![in28minutes slide image](other/images/cloud_vpc/10_cloud_vpc.png)
+
+### Getting Started with VPC Peering
+
+![in28minutes slide image](other/images/cloud_vpc/11_cloud_vpc.png)
+
+### Implementing Hybrid Cloud with Cloud VPN and Cloud Interconnect
+
+![in28minutes slide image](other/images/cloud_vpc/12_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/13_cloud_vpc.png)
+
+![in28minutes slide image](other/images/cloud_vpc/14_cloud_vpc.png)
+
+Readings:
+
+- [Configuring a Shared VPC on GCP - VMware Tanzu Docs](https://docs.pivotal.io/ops-manager/2-10/install/gcp-shared-vpc.html)
 
 ## Organizations and IAM - Organizing Google Cloud Resources
 
