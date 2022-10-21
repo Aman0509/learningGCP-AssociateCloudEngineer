@@ -28,6 +28,16 @@
 
     - [Exposing a Public Website using Cloud Storage](#exposing-a-public-website-using-cloud-storage)
 
+- [Asynchronous Communication in Google Cloud with Cloud Pub Sub](#asynchronous-communication-in-google-cloud-with-cloud-pub-sub)
+
+    - [Understanding the need for Asynchronous Communication](#understanding-the-need-for-asynchronous-communication)
+
+    - [Getting Started with Cloud Pub Sub](#getting-started-with-cloud-pub-sub)
+
+    - [Exploring Cloud Pub Sub - Publishing and Consuming a Message](#exploring-cloud-pub-sub---publishing-and-consuming-a-message)
+
+    - [Demo - Playing with Pub/Sub](#demo---playing-with-pubsub)
+
 - [Private Networks in Google Cloud - Cloud VPC](#private-networks-in-google-cloud---cloud-vpc)
 
     - [Understanding the need for Google Cloud VPC - Virtual Private Cloud](#understanding-the-need-for-google-cloud-vpc---virtual-private-cloud)
@@ -309,6 +319,64 @@ Suppose, you want to expose buckets, let's say, in a public website, then below 
 Readings:
 
 - [Make Data Public - Official Docs](https://cloud.google.com/storage/docs/access-control/making-data-public)
+
+## Asynchronous Communication in Google Cloud with Cloud Pub Sub
+
+### Understanding the need for Asynchronous Communication
+
+![in28minutes slide image](other/images/cloud_pub_sub/1_cloud_pub_sub.png)
+
+![in28minutes slide image](other/images/cloud_pub_sub/2_cloud_pub_sub.png)
+
+Readings:
+
+- [Asynchronous Communication — Methods and Strategies](https://dzone.com/articles/asynchronous-communication-methods-and-strategies#:~:text=The%20biggest%20benefit%20of%20asynchronous,also%20lead%20to%20better%20scalability.)
+- [Understanding Synchronous and Asynchronous Communication](https://www.microfocus.com/documentation/silk-performer/205/en/silkperformer-205-webhelp-en/GUID-6CC17B5B-71B7-4703-B9E6-C81835A5335A.html)
+
+### Getting Started with Cloud Pub Sub
+
+![in28minutes slide image](other/images/cloud_pub_sub/3_cloud_pub_sub.png)
+
+![in28minutes slide image](other/images/cloud_pub_sub/4_cloud_pub_sub.png)
+
+Readings:
+
+- [What is Pub/Sub?](https://cloud.google.com/pubsub/docs/overview)
+- [Google Cloud Pub/Sub – Asynchronous Messaging Service](https://k21academy.com/google-cloud/google-cloud-pub-sub/)
+
+### Exploring Cloud Pub Sub - Publishing and Consuming a Message
+
+![in28minutes slide image](other/images/cloud_pub_sub/5_cloud_pub_sub.png)
+
+![in28minutes slide image](other/images/cloud_pub_sub/6_cloud_pub_sub.png)
+
+### Demo - Playing with Pub/Sub
+
+**[Pub/Sub Demo](https://www.youtube.com/watch?v=f5DOsB7Nlw0&list=PLIivdWyY5sqKwVLe4BLJ-vlh9r9zCdOse&index=3)**
+
+![in28minutes slide image](other/images/cloud_pub_sub/5_cloud_pub_sub.png)
+
+***Few Commands for Reference***
+
+```
+> gcloud config set project <project_name>
+
+> gcloud pubsub topics create <topic_name>
+
+> gcloud pubsub subscriptions create <subscription_name> --topic=<topic_name>
+
+> gcloud pubsub topics publish <topic_name> --message=<message_content>
+
+> gcloud pubsub subscriptions pull <subscription_name>
+
+> gcloud pubsub subscriptions pull <subscription_name> --auto-ack
+
+> gcloud pubsub topics list
+
+> gcloud pubsub topics delete <topic_name>
+
+> gcloud pubsub topics list-subscriptions <topic_name>
+```
 
 ## Private Networks in Google Cloud - Cloud VPC
 
