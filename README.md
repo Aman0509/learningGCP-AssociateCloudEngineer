@@ -54,6 +54,26 @@
 
     - [Implementing Hybrid Cloud with Cloud VPN and Cloud Interconnect](#implementing-hybrid-cloud-with-cloud-vpn-and-cloud-interconnect)
 
+- [Operations in Google Cloud Platform](#operations-in-google-cloud-platform)
+
+    - [Getting Started with Google Cloud Monitoring](#getting-started-with-google-cloud-monitoring)
+
+    - [Getting Started with Google Cloud Logging](#getting-started-with-google-cloud-logging)
+
+    - [Exploring Google Cloud Logging - Audit Logs](#exploring-google-cloud-logging---audit-logs)
+
+    - [Exploring Google Cloud Logging - Routing Logs and Exports](#exploring-google-cloud-logging---routing-logs-and-exports)
+
+    - [Creating a Cloud Storage Bucket and Cloud Function](#creating-a-cloud-storage-bucket-and-cloud-function)
+
+    - [Getting Started with Google Cloud Trace](#getting-started-with-google-cloud-trace)
+
+    - [Getting Started with Google Cloud Debugger](#getting-started-with-google-cloud-debugger)
+
+    - [Cloud Profiler and Error Reporting](#cloud-profiler-and-error-reporting)
+
+    - [Scenarios - Operations in GCP](#scenarios---operations-in-gcp)
+
 - [Organizations and IAM - Organizing Google Cloud Resources](#organizations-and-iam---organizing-google-cloud-resources)
 
     - [Organizing Google Cloud Resources - Projects, Folders and Organization](#organizing-google-cloud-resources---projects-folders-and-organization)
@@ -443,6 +463,77 @@ Readings:
 Readings:
 
 - [Configuring a Shared VPC on GCP - VMware Tanzu Docs](https://docs.pivotal.io/ops-manager/2-10/install/gcp-shared-vpc.html)
+
+## Operations in Google Cloud Platform
+
+In this section, let's look at how you can perform operations in the cloud. Developing applications is important.
+However, maintaining applications and maintaining them in production is very important as well. That's where monitoring, logging, tracing, debugging, and all these kind of things become really, really important.
+
+### Getting Started with Google Cloud Monitoring
+
+![in28minutes slide image](other/images/cloud_operations/1_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/2_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/3_cloud_operations.png)
+
+Readings:
+
+- [Getting started with Cloud Monitoring](https://www.youtube.com/watch?v=wY8cmFY4ua8)
+
+### Getting Started with Google Cloud Logging
+
+![in28minutes slide image](other/images/cloud_operations/4_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/5_cloud_operations.png)
+
+### Exploring Google Cloud Logging - Audit Logs
+
+![in28minutes slide image](other/images/cloud_operations/6_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/7_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/8_cloud_operations.png)
+
+### Exploring Google Cloud Logging - Routing Logs and Exports
+
+![in28minutes slide image](other/images/cloud_operations/9_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/10_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/11_cloud_operations.png)
+
+Readings:
+
+- [Understand your services with Cloud Logging](https://www.youtube.com/watch?v=IlUCyV8mcS0)
+
+### Creating a Cloud Storage Bucket and Cloud Function
+
+This is a practice section where you need to create a bucket and then associate a cloud function to it which will be triggered as soon as any object is uploaded to this bucket. In this cloud function you can do implement anything which generates a log when an object is uploaded to bucket.
+
+The whole purpose of this exercise is to demonstrate the cloud logging.
+
+### Getting Started with Google Cloud Trace
+
+![in28minutes slide image](other/images/cloud_operations/12_cloud_operations.png)
+
+Readings:
+
+- [Cloud Trace - GCP](https://cloud.google.com/trace#:~:text=Cloud%20Trace%20is%20a%20distributed,near%20real%2Dtime%20performance%20insights.)
+
+### Getting Started with Google Cloud Debugger
+
+![in28minutes slide image](other/images/cloud_operations/13_cloud_operations.png)
+
+### Cloud Profiler and Error Reporting
+
+![in28minutes slide image](other/images/cloud_operations/14_cloud_operations.png)
+
+![in28minutes slide image](other/images/cloud_operations/15_cloud_operations.png)
+
+### Scenarios - Operations in GCP
+
+![in28minutes slide image](other/images/cloud_operations/16_cloud_operations.png)
 
 ## Organizations and IAM - Organizing Google Cloud Resources
 
