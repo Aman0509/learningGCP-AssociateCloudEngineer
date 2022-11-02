@@ -114,6 +114,20 @@
 
 - [Exploring Google Cloud Platform - GCP - Pricing Calculator](#exploring-google-cloud-platform---gcp---pricing-calculator)
 
+- [Google Cloud Platform - Other Important Services](#google-cloud-platform---other-important-services)
+
+    - [Getting Started with Cloud Deployment Manager](#getting-started-with-cloud-deployment-manager)
+
+    - [Understanding Cloud Deployment Manager](#understanding-cloud-deployment-manager)
+
+    - [Getting Started with Cloud Marketplace](#getting-started-with-cloud-marketplace)
+
+    - [Getting Started with Cloud DNS](#getting-started-with-cloud-dns)
+
+    - [Getting Started with Cloud Dataflow](#getting-started-with-cloud-dataflow)
+
+    - [Getting Started with Cloud Dataproc](#getting-started-with-cloud-dataproc)
+
 - [References](#references)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
@@ -651,6 +665,48 @@ Readings:
 ![in28minutes slide image](other/images/pricing_calculator/1_pricing_calculator.png)
 
 Click here to access [Google Price Calculator](https://cloud.google.com/products/calculator).
+
+## Google Cloud Platform - Other Important Services
+
+### Getting Started with Cloud Deployment Manager
+
+![in28minutes slide image](other/images/cloud_other_imp_services/1_cloud_other_imp_services.png)
+
+![in28minutes slide image](other/images/cloud_other_imp_services/2_cloud_other_imp_services.png)
+
+### Understanding Cloud Deployment Manager
+
+![in28minutes slide image](other/images/cloud_other_imp_services/3_cloud_other_imp_services.png)
+
+![in28minutes slide image](other/images/cloud_other_imp_services/4_cloud_other_imp_services.png)
+
+![in28minutes slide image](other/images/cloud_other_imp_services/5_cloud_other_imp_services.png)
+
+### Getting Started with Cloud Marketplace
+
+![in28minutes slide image](other/images/cloud_other_imp_services/6_cloud_other_imp_services.png)
+
+### Getting Started with Cloud DNS
+
+![in28minutes slide image](other/images/cloud_other_imp_services/7_cloud_other_imp_services.png)
+
+![in28minutes slide image](other/images/cloud_other_imp_services/8_cloud_other_imp_services.png)
+
+### Getting Started with Cloud Dataflow
+
+![in28minutes slide image](other/images/cloud_other_imp_services/9_cloud_other_imp_services.png)
+
+Readings:
+
+- [Google Cloud Dataflow](https://www.zuar.com/blog/what-is-google-cloud-dataflow/)
+
+### Getting Started with Cloud Dataproc
+
+![in28minutes slide image](other/images/cloud_other_imp_services/10_cloud_other_imp_services.png)
+
+Readings:
+
+- [What is Dataproc?](https://cloud.google.com/dataproc/docs/concepts/overview#:~:text=Dataproc%20is%20a%20managed%20Spark,you%20don't%20need%20them.)
 
 ## References
 
