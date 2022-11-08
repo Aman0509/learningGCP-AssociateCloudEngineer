@@ -12,6 +12,12 @@
 
     - [Understanding Regions and Zones in GCP](#understanding-regions-and-zones-in-gcp)
 
+- [Getting Started with Google Cloud Functions](#getting-started-with-google-cloud-functions)
+
+    - [Cloud Functions - Important Concepts](#cloud-functions---important-concepts)
+
+    - [Demo - Creating Cloud Functions](#demo---creating-cloud-functions)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -160,19 +166,39 @@
 
 ### Need for Regions and Zones
 
-[in28minutes slide image](other/images/cloud_regions_and_zones/1_cloud_regions_and_zones.png)
+![in28minutes slide image](other/images/cloud_regions_and_zones/1_cloud_regions_and_zones.png)
 
-[in28minutes slide image](other/images/cloud_regions_and_zones/2_cloud_regions_and_zones.png)
+![in28minutes slide image](other/images/cloud_regions_and_zones/2_cloud_regions_and_zones.png)
 
-[in28minutes slide image](other/images/cloud_regions_and_zones/3_cloud_regions_and_zones.png)
+![in28minutes slide image](other/images/cloud_regions_and_zones/3_cloud_regions_and_zones.png)
 
 ### Understanding Regions and Zones in GCP
 
-[in28minutes slide image](other/images/cloud_regions_and_zones/4_cloud_regions_and_zones.png)
+![in28minutes slide image](other/images/cloud_regions_and_zones/4_cloud_regions_and_zones.png)
 
-[in28minutes slide image](other/images/cloud_regions_and_zones/5_cloud_regions_and_zones.png)
+![in28minutes slide image](other/images/cloud_regions_and_zones/5_cloud_regions_and_zones.png)
 
-[in28minutes slide image](other/images/cloud_regions_and_zones/6_cloud_regions_and_zones.png)
+![in28minutes slide image](other/images/cloud_regions_and_zones/6_cloud_regions_and_zones.png)
+
+## Getting Started with Google Cloud Functions
+
+![in28minutes slide image](other/images/cloud_functions/1_cloud_functions.png)
+
+Readings:
+
+- [What is Google Cloud Functions?](https://iromin.medium.com/google-cloud-functions-tutorial-what-is-google-cloud-functions-8796fa07fc7a)
+
+### Cloud Functions - Important Concepts
+
+![in28minutes slide image](other/images/cloud_functions/2_cloud_functions.png)
+
+![in28minutes slide image](other/images/cloud_functions/3_cloud_functions.png)
+
+### Demo - Creating Cloud Functions
+
+- [Cloudera Docs](https://docs.cloudera.com/dataflow/cloud/google-cloud-functions/topics/cdf-create-google-cloud-function.html)
+
+- [Codelabs](https://codelabs.developers.google.com/codelabs/cloud-starting-cloudfunctions#0)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
