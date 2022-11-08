@@ -2,6 +2,10 @@
 
 ## Contents
 
+- [GCP ACE - Getting Started](#gcp-ace---getting-started)
+
+    - [Introduction to Cloud and GCP - Google Cloud Platform](#introduction-to-cloud-and-gcp---google-cloud-platform)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -129,6 +133,22 @@
     - [Getting Started with Cloud Dataproc](#getting-started-with-cloud-dataproc)
 
 - [References](#references)
+
+## GCP ACE - Getting Started
+
+### Introduction to Cloud and GCP - Google Cloud Platform
+
+![in28minutes slide image](other/images/cloud_ace_getting_started/1_cloud_ace_getting_started.png)
+
+![in28minutes slide image](other/images/cloud_ace_getting_started/2_cloud_ace_getting_started.png)
+
+![in28minutes slide image](other/images/cloud_ace_getting_started/3_cloud_ace_getting_started.png)
+
+![in28minutes slide image](other/images/cloud_ace_getting_started/4_cloud_ace_getting_started.png)
+
+![in28minutes slide image](other/images/cloud_ace_getting_started/5_cloud_ace_getting_started.png)
+
+![in28minutes slide image](other/images/cloud_ace_getting_started/6_cloud_ace_getting_started.png)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
