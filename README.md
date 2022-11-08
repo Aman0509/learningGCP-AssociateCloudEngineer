@@ -6,6 +6,12 @@
 
     - [Introduction to Cloud and GCP - Google Cloud Platform](#introduction-to-cloud-and-gcp---google-cloud-platform)
 
+- [Google Cloud Regions and Zones](#google-cloud-regions-and-zones)
+
+    - [Need for Regions and Zones](#need-for-regions-and-zones)
+
+    - [Understanding Regions and Zones in GCP](#understanding-regions-and-zones-in-gcp)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -149,6 +155,24 @@
 ![in28minutes slide image](other/images/cloud_ace_getting_started/5_cloud_ace_getting_started.png)
 
 ![in28minutes slide image](other/images/cloud_ace_getting_started/6_cloud_ace_getting_started.png)
+
+## Google Cloud Regions and Zones
+
+### Need for Regions and Zones
+
+[in28minutes slide image](other/images/cloud_regions_and_zones/1_cloud_regions_and_zones.png)
+
+[in28minutes slide image](other/images/cloud_regions_and_zones/2_cloud_regions_and_zones.png)
+
+[in28minutes slide image](other/images/cloud_regions_and_zones/3_cloud_regions_and_zones.png)
+
+### Understanding Regions and Zones in GCP
+
+[in28minutes slide image](other/images/cloud_regions_and_zones/4_cloud_regions_and_zones.png)
+
+[in28minutes slide image](other/images/cloud_regions_and_zones/5_cloud_regions_and_zones.png)
+
+[in28minutes slide image](other/images/cloud_regions_and_zones/6_cloud_regions_and_zones.png)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
