@@ -34,6 +34,38 @@
 
     - [Getting Started with Cloud KMS](#getting-started-with-cloud-kms)
 
+- [Block and File Storage in GCP](#block-and-file-storage-in-gcp)
+
+    - [Exploring Block and File Storage in GCP](#exploring-block-and-file-storage-in-gcp)
+
+    - [Exploring Block Storage in GCP - Local SSDs](#exploring-block-storage-in-gcp---local-ssds)
+
+    - [Exploring Block Storage in GCP - Persistent Disks](#exploring-block-storage-in-gcp---persistent-disks)
+
+    - [Comparing Persistent Disks vs Local SSDs](#comparing-persistent-disks-vs-local-ssds)
+
+    - [Exploring Persistent Disks Types](#exploring-persistent-disks-types)
+
+    - [Taking Snapshots for Persistent Disks](#taking-snapshots-for-persistent-disks)
+
+    - [Playing with Persistent Disks and Snapshots](#playing-with-persistent-disks-and-snapshots)
+
+    - [Playing with machine images](#playing-with-machine-images)
+
+    - [Comparing Snapshots vs Images vs Machine Images](#comparing-snapshots-vs-images-vs-machine-images)
+
+    - [Playing with Disks - GCloud](#playing-with-disks---gcloud)
+
+    - [Playing with Images - GCloud](#playing-with-images---gcloud)
+
+    - [Scenarios - Persistent Disks](#scenarios---persistent-disks)
+
+    - [Exploring File Storage with FileStore](#exploring-file-storage-with-filestore)
+
+    - [Exploring Global, Regional and Zonal Resources](#exploring-global-regional-and-zonal-resources)
+
+    - [Scenarios - Block and File Storage](#scenarios---block-and-file-storage)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -277,6 +309,146 @@ Readings:
 Readings:
 
 - [Deep Dive Into Google Cloud Key Management Services](https://www.appviewx.com/blogs/deep-dive-into-google-cloud-key-management-services/)
+
+## Block and File Storage in GCP
+
+### Exploring Block and File Storage in GCP
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/1_cloud_block_and_file_storage.png)
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/2_cloud_block_and_file_storage.png)
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/3_cloud_block_and_file_storage.png)
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/4_cloud_block_and_file_storage.png)
+
+Let's quickly see where you can actually look at these options.
+
+So, when we create a virtual machine, that's when you can attach block storage devices with it. You can either attach persistent disks or local SSDs.
+
+During creation of VM, if you go to the boot disk, you will see a persistent disk is attached from where your operating system is loaded and whenever we create a virtual machine, a boot disk is automatically attached with the virtual machine. So by default, a persistent disk called a boot disk is attached with your VM.
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/5_cloud_block_and_file_storage.png)
+
+If you'd want to have additional persistent disks attached, then go to Disks > Add New Disk
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/6_cloud_block_and_file_storage.png)
+
+> Remember, Local SSD is available with selected machine types
+
+Readings:
+
+- [Google Cloud Platform – Filestore](https://www.geeksforgeeks.org/google-cloud-platform-filestore/)
+
+- [Setup Filestore (shared filesystem) on Google Cloud and mount on to Ubuntu systems](https://medium.com/geekculture/setup-filestore-shared-filesystem-on-google-cloud-and-mount-on-to-ubuntu-systems-157fb762b25c)
+
+### Exploring Block Storage in GCP - Local SSDs
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/7_cloud_block_and_file_storage.png)
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/8_cloud_block_and_file_storage.png)
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/9_cloud_block_and_file_storage.png)
+
+### Exploring Block Storage in GCP - Persistent Disks
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/10_cloud_block_and_file_storage.png)
+
+### Comparing Persistent Disks vs Local SSDs
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/11_cloud_block_and_file_storage.png)
+
+### Exploring Persistent Disks Types
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/12_cloud_block_and_file_storage.png)
+
+### Taking Snapshots for Persistent Disks
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/13_cloud_block_and_file_storage.png)
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/14_cloud_block_and_file_storage.png)
+
+Readings:
+
+- [Google Cloud Compute Engine Snapshots](https://jayendrapatil.com/google-cloud-compute-engine-snapshots/)
+
+### Playing with Persistent Disks and Snapshots
+
+We know that boot disk of persistent disks. However, if you delete your VM, the boot disk will also get deleted. To avoid that you can configure like below:
+
+*While creating the VM*
+
+Go to Boot Disk > Change > Show Advanced Configuration > Deletion Rule > Keep Boot Disk
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/15_cloud_block_and_file_storage.png)
+
+*In a existing VM*
+
+Go to you instance > Edit > Under Storage (Boot Disk) section > Deletion Rule > Keep Disk
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/16_cloud_block_and_file_storage.png)
+
+**Creating Snapshot**
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/17_cloud_block_and_file_storage.png)
+
+Once your snapshot is created, you can create an VM instance using it. But remember that snapshots must be created from a boot disk.
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/18_cloud_block_and_file_storage.png)
+
+You can also create a disk using snapshot.
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/19_cloud_block_and_file_storage.png)
+
+**Scheduling Snapshots**
+
+Snapshot schedule is not really linked to a disk. It's a general schedule. Once created, you need to explicitly assigned it to a disk.
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/20_cloud_block_and_file_storage.png)
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/21_cloud_block_and_file_storage.png)
+
+Assigning snapshot schedule to a disk.
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/22_cloud_block_and_file_storage.png)
+
+### Playing with machine images
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/23_cloud_block_and_file_storage.png)
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/24_cloud_block_and_file_storage.png)
+
+After creating a machine image, instance can be created based on it.
+
+![in28minutes demo image](other/images/cloud_block_and_file_storage/25_cloud_block_and_file_storage.png)
+
+### Comparing Snapshots vs Images vs Machine Images
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/26_cloud_block_and_file_storage.png)
+
+### Playing with Disks - GCloud
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/27_cloud_block_and_file_storage.png)
+
+### Playing with Images - GCloud
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/28_cloud_block_and_file_storage.png)
+
+### Scenarios - Persistent Disks
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/29_cloud_block_and_file_storage.png)
+
+### Exploring File Storage with FileStore
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/30_cloud_block_and_file_storage.png)
+
+### Exploring Global, Regional and Zonal Resources
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/31_cloud_block_and_file_storage.png)
+
+### Scenarios - Block and File Storage
+
+![in28minutes slide image](other/images/cloud_block_and_file_storage/32_cloud_block_and_file_storage.png)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
