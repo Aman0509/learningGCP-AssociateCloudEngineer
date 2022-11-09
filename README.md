@@ -26,6 +26,14 @@
 
     - [Quick Overview of deploying Cloud Functions with GCloud](#quick-overview-of-deploying-cloud-functions-with-gcloud)
 
+- [Encryption in Google Cloud with Cloud KMS](#encryption-in-google-cloud-with-cloud-kms)
+
+    - [Understanding Data States](#understanding-data-states)
+
+    - [Understanding Encryption - Symmetric and Asymmetric](#understanding-encryption---symmetric-and-asymmetric)
+
+    - [Getting Started with Cloud KMS](#getting-started-with-cloud-kms)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -247,6 +255,28 @@ Readings:
 ![in28minutes slide image](other/images/cloud_functions/6_cloud_functions.png)
 
 ![in28minutes slide image](other/images/cloud_functions/7_cloud_functions.png)
+
+## Encryption in Google Cloud with Cloud KMS
+
+### Understanding Data States
+
+![in28minutes slide image](other/images/cloud_kms/1_cloud_kms.png)
+
+### Understanding Encryption - Symmetric and Asymmetric
+
+![in28minutes slide image](other/images/cloud_kms/2_cloud_kms.png)
+
+![in28minutes slide image](other/images/cloud_kms/3_cloud_kms.png)
+
+![in28minutes slide image](other/images/cloud_kms/4_cloud_kms.png)
+
+### Getting Started with Cloud KMS
+
+![in28minutes slide image](other/images/cloud_kms/5_cloud_kms.png)
+
+Readings:
+
+- [Deep Dive Into Google Cloud Key Management Services](https://www.appviewx.com/blogs/deep-dive-into-google-cloud-key-management-services/)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
