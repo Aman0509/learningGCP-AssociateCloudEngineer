@@ -114,6 +114,32 @@
 
     - [Exposing a Public Website using Cloud Storage](#exposing-a-public-website-using-cloud-storage)
 
+- [Choosing Database in GCP](#choosing-database-in-gcp)
+
+    - [Understanding Database Fundamentals - Snapshot, Standby etc](#understanding-database-fundamentals---snapshot-standby-etc)
+
+    - [Understanding Database Fundamentals - Availability and Durability](#understanding-database-fundamentals---availability-and-durability)
+
+    - [Understanding Database Fundamentals - RTO and RPO](#understanding-database-fundamentals---rto-and-rpo)
+
+    - [Understanding Database Fundamentals - Read Replicas](#understanding-database-fundamentals---read-replicas)
+
+    - [Understanding Database Fundamentals - Data Consistency](#understanding-database-fundamentals---data-consistency)
+
+    - [Understanding Database Fundamentals - Choosing Databases](#understanding-database-fundamentals---choosing-databases)
+
+    - [OLTP Relational Databases in Google Cloud - Cloud SQL and Cloud Spanner](#oltp-relational-databases-in-google-cloud---cloud-sql-and-cloud-spanner)
+
+    - [OLAP Relational Databases in Google Cloud - BigQuery](#olap-relational-databases-in-google-cloud---bigquery)
+
+    - [NoSQL Databases in Google Cloud - Firestone, Datastore and BigTable](#nosql-databases-in-google-cloud---firestone-datastore-and-bigtable)
+
+    - [In Memory Database in Google Cloud - Memorystore](#in-memory-database-in-google-cloud---memorystore)
+
+    - [Databases in Google Cloud Platform - A Quick Review](#databases-in-google-cloud-platform---a-quick-review)
+
+    - [Databases in Google Cloud Platform - Scenarios](#databases-in-google-cloud-platform---scenarios)
+
 - [Asynchronous Communication in Google Cloud with Cloud Pub Sub](#asynchronous-communication-in-google-cloud-with-cloud-pub-sub)
 
     - [Understanding the need for Asynchronous Communication](#understanding-the-need-for-asynchronous-communication)
@@ -801,6 +827,90 @@ Suppose, you want to expose buckets, let's say, in a public website, then below 
 Readings:
 
 - [Make Data Public - Official Docs](https://cloud.google.com/storage/docs/access-control/making-data-public)
+
+## Choosing Database in GCP
+
+![in28minutes slide image](other/images/cloud_database/1_cloud_database.png)
+
+### Understanding Database Fundamentals - Snapshot, Standby etc
+
+![in28minutes slide image](other/images/cloud_database/2_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/3_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/4_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/5_cloud_database.png)
+
+Readings:
+
+- [The Transaction Log](https://learn.microsoft.com/en-us/sql/relational-databases/logs/the-transaction-log-sql-server?view=sql-server-ver16)
+
+### Understanding Database Fundamentals - Availability and Durability
+
+![in28minutes slide image](other/images/cloud_database/6_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/7_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/8_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/9_cloud_database.png)
+
+### Understanding Database Fundamentals - RTO and RPO
+
+![in28minutes slide image](other/images/cloud_database/10_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/11_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/12_cloud_database.png)
+
+### Understanding Database Fundamentals - Read Replicas
+
+![in28minutes slide image](other/images/cloud_database/13_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/14_cloud_database.png)
+
+### Understanding Database Fundamentals - Data Consistency
+
+![in28minutes slide image](other/images/cloud_database/15_cloud_database.png)
+
+### Understanding Database Fundamentals - Choosing Databases
+
+![in28minutes slide image](other/images/cloud_database/16_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/17_cloud_database.png)
+
+### OLTP Relational Databases in Google Cloud - Cloud SQL and Cloud Spanner
+
+![in28minutes slide image](other/images/cloud_database/18_cloud_database.png)
+
+### OLAP Relational Databases in Google Cloud - BigQuery
+
+![in28minutes slide image](other/images/cloud_database/19_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/20_cloud_database.png)
+
+### NoSQL Databases in Google Cloud - Firestone, Datastore and BigTable
+
+![in28minutes slide image](other/images/cloud_database/21_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/22_cloud_database.png)
+
+Readings:
+
+- [NOSQL DATABASE SERVICES](https://datavalley.technology/nosql-database-services-cloud-datastore-cloud-firestore-and-cloud-bigtable/)
+
+### In Memory Database in Google Cloud - Memorystore
+
+![in28minutes slide image](other/images/cloud_database/23_cloud_database.png)
+
+### Databases in Google Cloud Platform - A Quick Review
+
+![in28minutes slide image](other/images/cloud_database/24_cloud_database.png)
+
+### Databases in Google Cloud Platform - Scenarios
+
+![in28minutes slide image](other/images/cloud_database/25_cloud_database.png)
 
 ## Asynchronous Communication in Google Cloud with Cloud Pub Sub
 
