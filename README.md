@@ -66,6 +66,28 @@
 
     - [Scenarios - Block and File Storage](#scenarios---block-and-file-storage)
 
+- [Object Storage in GCP - Cloud Storage](#object-storage-in-gcp---cloud-storage)
+
+    - [Playing with Object Storage in GCP - Cloud Storage](#playing-with-object-storage-in-gcp---cloud-storage)
+
+    - [Exploring Cloud Storage in GCP](#exploring-cloud-storage-in-gcp)
+
+    - [Understanding Cloud Storage - Objects and Buckets](#understanding-cloud-storage---objects-and-buckets)
+
+    - [Understanding Cloud Storage - Storage Classes](#understanding-cloud-storage---storage-classes)
+
+    - [Understanding Cloud Storage - Uploading and Downloading Options](#understanding-cloud-storage---uploading-and-downloading-options)
+
+    - [Understanding Cloud Storage - Versioning](#understanding-cloud-storage---versioning)
+
+    - [Understanding Cloud Storage - Lifecycle Management](#understanding-cloud-storage---lifecycle-management)
+
+    - [Understanding Cloud Storage - Encryption with KMS](#understanding-cloud-storage---encryption-with-kms)
+
+    - [Scenarios - Cloud Storage](#scenarios---cloud-storage)
+
+    - [Playing with gsutil - Cloud Storage from Command Line](#playing-with-gsutil---cloud-storage-from-command-line)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -449,6 +471,112 @@ After creating a machine image, instance can be created based on it.
 ### Scenarios - Block and File Storage
 
 ![in28minutes slide image](other/images/cloud_block_and_file_storage/32_cloud_block_and_file_storage.png)
+
+## Object Storage in GCP - Cloud Storage
+
+### Playing with Object Storage in GCP - Cloud Storage
+
+To get an idea about object and cloud storage, we'll start with demo.
+
+Go to search > type Cloud Storage and you might see few buckets like below. Bucket is kind of a container for all the objects that you would want to place in cloud storage. We will talk about it in lengths later.
+
+![in28minutes demo image](other/images/cloud_storage/1_cloud_storage.png)
+
+Let's create a new bucket. For that, click on 'Create Bucket'. Now you have to provide bucket name which must be unique globally. 
+
+![in28minutes demo image](other/images/cloud_storage/2_cloud_storage.png)
+
+Next, chose where to store data.
+
+![in28minutes demo image](other/images/cloud_storage/3_cloud_storage.png)
+
+Now choose default storage class
+
+![in28minutes demo image](other/images/cloud_storage/4_cloud_storage.png)
+
+Let's keep other options with default values.
+
+One of the important things to be noticed in here is that there is no mention of the size of the storage that we would want All that we said is that this is the bucket and this is where we want to create it.
+
+Once bucket is created, you may go ahead and store your data in it.
+
+### Exploring Cloud Storage in GCP
+
+![in28minutes slide image](other/images/cloud_storage/5_cloud_storage.png)
+
+In bucket, objects are stored in key-value pair.
+
+![in28minutes demo image](other/images/cloud_storage/6_cloud_storage.png)
+
+In below image, '2030/10/course1.png' is the key and value is the content of course1.png image.
+
+![in28minutes demo image](other/images/cloud_storage/7_cloud_storage.png)
+
+Whenever we are storing files, we will not be updating files bit by bit. So, whenever we want to change any file, we will create a new image and then upload the entire image as such. So, we would be treating the entire object as a single unit. We'll not do partial updates.
+
+### Understanding Cloud Storage - Objects and Buckets
+
+![in28minutes slide image](other/images/cloud_storage/8_cloud_storage.png)
+
+Readings:
+
+- [Storage Options in Google Cloud Platform - Rundown](https://medium.datadriveninvestor.com/storage-options-in-google-cloud-platform-rundown-f78100c4ed37)
+
+### Understanding Cloud Storage - Storage Classes
+
+![in28minutes slide image](other/images/cloud_storage/9_cloud_storage.png)
+
+![in28minutes slide image](other/images/cloud_storage/10_cloud_storage.png)
+
+> Storage classes can also be defined at object level. So, in the same bucket, you can have different objects with different storage classes.
+
+![in28minutes slide image](other/images/cloud_storage/11_cloud_storage.png)
+
+![in28minutes slide image](other/images/cloud_storage/12_cloud_storage.png)
+
+### Understanding Cloud Storage - Uploading and Downloading Options
+
+![in28minutes slide image](other/images/cloud_storage/13_cloud_storage.png)
+
+### Understanding Cloud Storage - Versioning
+
+![in28minutes slide image](other/images/cloud_storage/14_cloud_storage.png)
+
+### Understanding Cloud Storage - Lifecycle Management
+
+![in28minutes slide image](other/images/cloud_storage/15_cloud_storage.png)
+
+![in28minutes slide image](other/images/cloud_storage/16_cloud_storage.png)
+
+To configure the lifecycle for your bucket, go to 'Lifecycle' tab and then 'Add a rule'
+
+![in28minutes demo image](other/images/cloud_storage/17_cloud_storage.png)
+
+![in28minutes demo image](other/images/cloud_storage/18_cloud_storage.png)
+
+![in28minutes demo image](other/images/cloud_storage/19_cloud_storage.png)
+
+### Understanding Cloud Storage - Encryption with KMS
+
+![in28minutes slide image](other/images/cloud_storage/20_cloud_storage.png)
+
+To configure server side encryption, go to 'Configuration' tab of your bucket and click on 'Encryption Type'.
+
+![in28minutes demo image](other/images/cloud_storage/21_cloud_storage.png)
+
+You can also add encryption at the time of creating bucket in 'Advanced Setting' section.
+
+![in28minutes demo image](other/images/cloud_storage/22_cloud_storage.png)
+
+### Scenarios - Cloud Storage
+
+![in28minutes slide image](other/images/cloud_storage/23_cloud_storage.png)
+
+### Playing with gsutil - Cloud Storage from Command Line
+
+![in28minutes slide image](other/images/cloud_storage/24_cloud_storage.png)
+
+![in28minutes slide image](other/images/cloud_storage/25_cloud_storage.png)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
