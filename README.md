@@ -18,6 +18,8 @@
 
     - [Demo - Creating Cloud Functions](#demo---creating-cloud-functions)
 
+- [Getting Started with Google Cloud Run](#getting-started-with-google-cloud-run)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -199,6 +201,26 @@ Readings:
 - [Cloudera Docs](https://docs.cloudera.com/dataflow/cloud/google-cloud-functions/topics/cdf-create-google-cloud-function.html)
 
 - [Codelabs](https://codelabs.developers.google.com/codelabs/cloud-starting-cloudfunctions#0)
+
+## Getting Started with Google Cloud Run
+
+![in28minutes slide image](other/images/cloud_run/1_cloud_run.png)
+
+![Google Developers slide image](other/images/cloud_run/2_cloud_run.png)
+
+![Google Developers slide image](other/images/cloud_run/3_cloud_run.png)
+
+![Google Developers slide image](other/images/cloud_run/4_cloud_run.png)
+
+![Google Developers slide image](other/images/cloud_run/5_cloud_run.png)
+
+![in28minutes slide image](other/images/cloud_run/6_cloud_run.png)
+
+Readings:
+
+- [What is Cloud Run?](https://www.bmc.com/blogs/google-cloud-run/)
+
+- [Cloud Run and serverless computing](https://developers.google.com/learn/pathways/cloud-run-serverless-computing)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
