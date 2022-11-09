@@ -20,6 +20,12 @@
 
 - [Getting Started with Google Cloud Run](#getting-started-with-google-cloud-run)
 
+- [Exploring Google Cloud Functions Gen 2](#exploring-google-cloud-functions-gen-2)
+
+    - [Exploring Cloud Functions - Scaling and Concurrency](#exploring-cloud-functions---scaling-and-concurrency)
+
+    - [Quick Overview of deploying Cloud Functions with GCloud](#quick-overview-of-deploying-cloud-functions-with-gcloud)
+
 - [Authentication & Authorization in Google Cloud with Cloud IAM](#authentication--authorization-in-google-could-with-cloud-iam)
 
     - [Introduction](#introduction)
@@ -221,6 +227,26 @@ Readings:
 - [What is Cloud Run?](https://www.bmc.com/blogs/google-cloud-run/)
 
 - [Cloud Run and serverless computing](https://developers.google.com/learn/pathways/cloud-run-serverless-computing)
+
+## Exploring Google Cloud Functions Gen 2
+
+![in28minutes slide image](other/images/cloud_functions/4_cloud_functions.png)
+
+Readings:
+
+- [2nd Generation Google Cloud Function](https://medium.com/geekculture/2nd-generation-google-cloud-function-a069a131e313)
+
+- [Cloud Functions version comparison](https://cloud.google.com/functions/docs/concepts/version-comparison)
+
+### Exploring Cloud Functions - Scaling and Concurrency
+
+![in28minutes slide image](other/images/cloud_functions/5_cloud_functions.png)
+
+### Quick Overview of deploying Cloud Functions with GCloud
+
+![in28minutes slide image](other/images/cloud_functions/6_cloud_functions.png)
+
+![in28minutes slide image](other/images/cloud_functions/7_cloud_functions.png)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
