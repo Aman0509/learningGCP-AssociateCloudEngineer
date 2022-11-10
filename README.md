@@ -140,6 +140,38 @@
 
     - [Databases in Google Cloud Platform - Scenarios](#databases-in-google-cloud-platform---scenarios)
 
+- [Exploring Databases in Google Cloud Platform](#exploring-databases-in-google-cloud-platform)
+
+    - [Getting Started with Cloud SQL](#getting-started-with-cloud-sql)
+
+    - [Demo - Playing with CloudSQL](#demo---playing-with-cloudsql)
+
+    - [Understanding CloudSQL Features](#understanding-cloudsql-features)
+
+    - [Getting Started with Cloud Spanner](#getting-started-with-cloud-spanner)
+
+    - [Demo - Playing with Cloud Spanner](#demo---playing-with-cloud-spanner)
+
+    - [Getting Started with Cloud Datastore and Cloud Firestore](#getting-started-with-cloud-datastore-and-cloud-firestore)
+
+    - [Demo - Playing with Firestore](#demo---playing-with-firestore)
+
+    - [Getting Started with Cloud BigTable](#getting-started-with-cloud-bigtable)
+
+    - [Getting Started with Memorystore](#getting-started-with-memorystore)
+
+    - [Demo - Playing with Memorystore](#demo---playing-with-memorystore)
+
+    - [Getting Started with BigQuery](#getting-started-with-bigquery)
+
+    - [Playing with Cloud SQL, BigQuery and Big Table from Command Line](#playing-with-cloud-sql-bigquery-and-big-table-from-command-line)
+
+    - [Importing and Exporting Relational Databases](#importing-and-exporting-relational-databases)
+
+    - [Importing and Exporting NoSQL Databases](#importing-and-exporting-nosql-databases)
+
+    - [Databases in Google Cloud Platform - Summary](#databases-in-google-cloud-platform---summary)
+
 - [Asynchronous Communication in Google Cloud with Cloud Pub Sub](#asynchronous-communication-in-google-cloud-with-cloud-pub-sub)
 
     - [Understanding the need for Asynchronous Communication](#understanding-the-need-for-asynchronous-communication)
@@ -911,6 +943,152 @@ Readings:
 ### Databases in Google Cloud Platform - Scenarios
 
 ![in28minutes slide image](other/images/cloud_database/25_cloud_database.png)
+
+## Exploring Databases in Google Cloud Platform
+
+### Getting Started with Cloud SQL
+
+![in28minutes slide image](other/images/cloud_database/26_cloud_database.png)
+
+### Demo - Playing with CloudSQL
+
+- To begin with Cloud SQL, in search bar, type Cloud SQL and select SQL
+
+    ![in28minutes demo image](other/images/cloud_database/27_cloud_database.png)
+
+- Click on create instance, select the database provider, configure it and create the instance.
+
+    ![in28minutes demo image](other/images/cloud_database/28_cloud_database.png)
+
+- Once your instance is up, create the database.
+
+    ![in28minutes demo image](other/images/cloud_database/29_cloud_database.png)
+
+- To interact with database (performing database related operations like creating tables etc), go to Overview > Connect using Cloud Shell
+
+    ![in28minutes demo image](other/images/cloud_database/30_cloud_database.png)
+
+    ![in28minutes demo image](other/images/cloud_database/31_cloud_database.png)
+
+- Once connected to your database, you can perform your db related tasks.
+
+**Commands Used in this demo**
+
+```
+# Cloud SQL
+gcloud sql connect my-first-cloud-sql-instance --user=root --quiet
+gcloud config set project glowing-furnace-304608
+gcloud sql connect my-first-cloud-sql-instance --user=root --quiet
+use todos
+create table user (id integer, username varchar(30) );
+describe user;
+insert into user values (1, 'Ranga');
+select * from user;
+```
+
+### Understanding CloudSQL Features
+
+![in28minutes slide image](other/images/cloud_database/32_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/33_cloud_database.png)
+
+### Getting Started with Cloud Spanner
+
+![in28minutes slide image](other/images/cloud_database/34_cloud_database.png)
+
+### Demo - Playing with Cloud Spanner
+
+- Search Bar > Cloud Spanner > Create Instance
+
+    ![in28minutes demo image](other/images/cloud_database/35_cloud_database.png)
+
+- Configure it as per your requirements.
+
+    ![in28minutes demo image](other/images/cloud_database/36_cloud_database.png)
+
+- In 'Allocate Compute Capacity', you can either choose 'node' or 'processing unit' (it is introduced recently).
+
+- Once cloud spanner instance is created, proceed with the database and table creation.
+
+    ![in28minutes demo image](other/images/cloud_database/37_cloud_database.png)
+
+    ![in28minutes demo image](other/images/cloud_database/38_cloud_database.png)
+
+    ```
+    # Cloud Spanner
+    CREATE TABLE Users (
+    UserId   INT64 NOT NULL,
+    UserName  STRING(1024)
+    ) PRIMARY KEY(UserId);
+    ```
+
+### Getting Started with Cloud Datastore and Cloud Firestore
+
+![in28minutes slide image](other/images/cloud_database/39_cloud_database.png)
+
+### Demo - Playing with Firestore
+
+- Search Bar > Firestore > Select desired mode. Cloud Firestore is the next generation of cloud Datastore. So, if you're creating new projects then the recommendation is to go for Native mode. However, if you have old Datastore projects that you are moving over to Firestore then the recommendation is to go with Datastore mode. ***Remember, once you choose the mode, it will be permanent for your project.***
+
+    ![in28minutes demo image](other/images/cloud_database/40_cloud_database.png)
+
+- Once mode is chosen, select the location, which can be regional or multi-regional.
+
+- After doing all above and click on 'create database' to create the database.
+
+    ![in28minutes demo image](other/images/cloud_database/41_cloud_database.png)
+
+- Now, to add data into the database, click on 'start collection'. A collection is a set of one or more documents that contain data. It is similar to tables in relational database. Once collection is created, to store data, you have to create document under which you can define your fields.
+
+    ![in28minutes demo image](other/images/cloud_database/42_cloud_database.png)
+
+- One of the important things to remember about Datastore or Firestore is the fact that it is hierarchical. It means inside a document, you can add another collection.
+
+### Getting Started with Cloud BigTable
+
+![in28minutes slide image](other/images/cloud_database/43_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/44_cloud_database.png)
+
+### Getting Started with Memorystore
+
+![in28minutes slide image](other/images/cloud_database/45_cloud_database.png)
+
+### Demo - Playing with Memorystore
+
+- Search Bar > Memorystore > Create Instance (for redis or memcached, based on your requirements)
+
+    ![in28minutes demo image](other/images/cloud_database/46_cloud_database.png)
+
+- Provide configuration details and click on create.
+
+### Getting Started with BigQuery
+
+![in28minutes slide image](other/images/cloud_database/47_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/48_cloud_database.png)
+
+### Playing with Cloud SQL, BigQuery and Big Table from Command Line
+
+![in28minutes slide image](other/images/cloud_database/49_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/50_cloud_database.png)
+
+![in28minutes slide image](other/images/cloud_database/51_cloud_database.png)
+
+### Importing and Exporting Relational Databases
+
+Whenever you look at any of the import or export scenarios in Google Cloud platform, you would see that typically cloud storage is involved. Whenever you'd want to move data from somewhere to somewhere, you would first move it to cloud storage and then move it to the destination and that's the reason why you would see that most of these services support export to and from cloud storage.
+
+![in28minutes slide image](other/images/cloud_database/52_cloud_database.png)
+
+### Importing and Exporting NoSQL Databases
+
+![in28minutes slide image](other/images/cloud_database/53_cloud_database.png)
+
+### Databases in Google Cloud Platform - Summary
+
+![in28minutes slide image](other/images/cloud_database/54_cloud_database.png)
 
 ## Asynchronous Communication in Google Cloud with Cloud Pub Sub
 
