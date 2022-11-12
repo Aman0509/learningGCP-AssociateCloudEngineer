@@ -1124,7 +1124,7 @@ Readings:
 
 **[Pub/Sub Demo](https://www.youtube.com/watch?v=f5DOsB7Nlw0&list=PLIivdWyY5sqKwVLe4BLJ-vlh9r9zCdOse&index=3)**
 
-![in28minutes slide image](other/images/cloud_pub_sub/5_cloud_pub_sub.png)
+![in28minutes slide image](other/images/cloud_pub_sub/7_cloud_pub_sub.png)
 
 ***Few Commands for Reference***
 
