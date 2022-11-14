@@ -12,6 +12,24 @@
 
     - [Understanding Regions and Zones in GCP](#understanding-regions-and-zones-in-gcp)
 
+- [Google Compute Engine for Associate Cloud Engineer](#google-compute-engine-for-associate-cloud-engineer)
+
+    - [Getting started with Google Compute Engine - GCE](#getting-started-with-google-compute-engine---gce)
+
+    - [Understanding Machine Types and Images in Google Compute Engine](#understanding-machine-types-and-images-in-google-compute-engine)
+
+    - [Installing HTTP Webserver on GCE VM](#installing-http-webserver-on-gce-vm)
+
+    - [Understanding Internal and External IP addresses](#understanding-internal-and-external-ip-addresses)
+
+    - [Playing with Static IP Addresses](#playing-with-static-ip-addresses)
+
+    - [Simplifying the Web Server setup with Compute Engine Startup Script](#simplifying-the-web-server-setup-with-compute-engine-startup-script)
+
+    - [Simplifying VM creation with Instance Templates](#simplifying-vm-creation-with-instance-templates)
+
+    - [Reducing Launch Time with Custom Images](#reducing-launch-time-with-custom-images)
+
 - [Getting Started with Google Cloud Functions](#getting-started-with-google-cloud-functions)
 
     - [Cloud Functions - Important Concepts](#cloud-functions---important-concepts)
@@ -307,6 +325,112 @@
 ![in28minutes slide image](other/images/cloud_regions_and_zones/5_cloud_regions_and_zones.png)
 
 ![in28minutes slide image](other/images/cloud_regions_and_zones/6_cloud_regions_and_zones.png)
+
+## Google Compute Engine for Associate Cloud Engineer
+
+### Getting started with Google Compute Engine - GCE
+
+![in28minutes slide image](other/images/cloud_compute_engine/1_cloud_compute_engine.png)
+
+![in28minutes slide image](other/images/cloud_compute_engine/2_cloud_compute_engine.png)
+
+![in28minutes slide image](other/images/cloud_compute_engine/3_cloud_compute_engine.png)
+
+- Go to search bar > type 'compute engine' and hit enter > create
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/4_cloud_compute_engine.png)
+
+- Provide configurations like, name, region, machine type, os details etc and then click on create.
+
+Readings:
+
+- [Creating a Virtual Machine Instance with Google Cloud](https://www.waferwire.com/blog/creating-a-virtual-machine-instance-with-google-cloud/)
+
+- [Create a Google Compute Engine stack](https://www.koding.com/docs/creating-a-gce-stack)
+
+### Understanding Machine Types and Images in Google Compute Engine
+
+![in28minutes slide image](other/images/cloud_compute_engine/5_cloud_compute_engine.png)
+
+![in28minutes slide image](other/images/cloud_compute_engine/6_cloud_compute_engine.png)
+
+![in28minutes slide image](other/images/cloud_compute_engine/7_cloud_compute_engine.png)
+
+### Installing HTTP Webserver on GCE VM
+
+- Once VM is created, install Apache in it and inside the index page, let's just keep the VM's hostname and IP address.
+
+    ![in28minutes slide image](other/images/cloud_compute_engine/8_cloud_compute_engine.png)
+
+- To launch the index page hosted on VM, use the **External IP**. Make sure you have allow the HTTP/HTTPS traffic on this VM.
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/9_cloud_compute_engine.png)
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/10_cloud_compute_engine.png)
+
+### Understanding Internal and External IP addresses
+
+![in28minutes slide image](other/images/cloud_compute_engine/11_cloud_compute_engine.png)
+
+### Playing with Static IP Addresses
+
+![in28minutes slide image](other/images/cloud_compute_engine/12_cloud_compute_engine.png)
+
+- Go to Search bar > type **External IP Addresses** > list of all external IP addresses can be found here which are assigned to VMs
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/13_cloud_compute_engine.png)
+
+- Now to reserver an IP or create a static IP, click on **Reserve Static Address** and provide the configurations.
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/14_cloud_compute_engine.png)
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/15_cloud_compute_engine.png)
+
+- Once static IP is created, it needs to be assigned to the VM. For that, click on **change** and select the VM.
+
+    ![in28minutes demo image](other/images/cloud_compute_engine/16_cloud_compute_engine.png)
+
+![in28minutes slide image](other/images/cloud_compute_engine/17_cloud_compute_engine.png)
+
+### Simplifying the Web Server setup with Compute Engine Startup Script
+
+![in28minutes slide image](other/images/cloud_compute_engine/18_cloud_compute_engine.png)
+
+![in28minutes slide image](other/images/cloud_compute_engine/19_cloud_compute_engine.png)
+
+We will configure our startup script during VM creation. For that, while creating VM and configuring options, go to **Management** > under **Automation**, you will find **Startup script** text area. Update your script there and create instance.
+
+![in28minutes demo image](other/images/cloud_compute_engine/20_cloud_compute_engine.png)
+
+To test it, click on external IP and verify everything's working as expected.
+
+### Simplifying VM creation with Instance Templates
+
+![in28minutes slide image](other/images/cloud_compute_engine/21_cloud_compute_engine.png)
+
+![in28minutes demo image](other/images/cloud_compute_engine/22_cloud_compute_engine.png)
+
+![in28minutes demo image](other/images/cloud_compute_engine/23_cloud_compute_engine.png)
+
+![in28minutes demo image](other/images/cloud_compute_engine/24_cloud_compute_engine.png)
+
+Click on create and new instance template will be created. Based on it, now, VMs can be created.
+
+![in28minutes demo image](other/images/cloud_compute_engine/25_cloud_compute_engine.png)
+
+### Reducing Launch Time with Custom Images
+
+![in28minutes slide image](other/images/cloud_compute_engine/26_cloud_compute_engine.png)
+
+To create image from a disk, ensure VM instance attached with that disk should be in stopped state.
+
+![in28minutes demo image](other/images/cloud_compute_engine/27_cloud_compute_engine.png)
+
+Provide all required configurations and click on create. Once created, you can find it under **Images** tab.
+
+![in28minutes demo image](other/images/cloud_compute_engine/28_cloud_compute_engine.png)
+
+Now, you can create an instance template and use this custom image under boot disk section and create VM instances based on this template.
 
 ## Getting Started with Google Cloud Functions
 
