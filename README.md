@@ -56,6 +56,18 @@
 
     - [Quick Review - Google Compute Engine](#quick-review---google-compute-engine)
 
+- [Managed Services in Google Cloud Platform](#managed-services-in-google-cloud-platform)
+
+    - [What are Managed Services?](#what-are-managed-services)
+
+    - [Understanding IAAS and PAAS](#understanding-iaas-and-paas)
+
+    - [Understanding Evolution to Containers and Containers Orchestration](#understanding-evolution-to-containers-and-containers-orchestration)
+
+    - [Understanding Serverless](#understanding-serverless)
+
+    - [Exploring Google Cloud Platform GCP Compute Services](#exploring-google-cloud-platform-gcp-compute-services)
+
 - [Getting Started with Google Cloud Functions](#getting-started-with-google-cloud-functions)
 
     - [Cloud Functions - Important Concepts](#cloud-functions---important-concepts)
@@ -539,6 +551,36 @@ Select machine type and then add GPU to it.
 ![in28minutes slide image](other/images/cloud_optimizing_costs/21_cloud_optimizing_costs.png)
 
 ![in28minutes slide image](other/images/cloud_optimizing_costs/22_cloud_optimizing_costs.png)
+
+## Managed Services in Google Cloud Platform
+
+### What are Managed Services?
+
+![in28minutes slide image](other/images/cloud_managed_services/1_cloud_managed_services.png)
+
+### Understanding IAAS and PAAS
+
+![in28minutes slide image](other/images/cloud_managed_services/2_cloud_managed_services.png)
+
+![in28minutes slide image](other/images/cloud_managed_services/3_cloud_managed_services.png)
+
+### Understanding Evolution to Containers and Containers Orchestration
+
+![in28minutes slide image](other/images/cloud_managed_services/4_cloud_managed_services.png)
+
+![in28minutes slide image](other/images/cloud_managed_services/5_cloud_managed_services.png)
+
+![in28minutes slide image](other/images/cloud_managed_services/6_cloud_managed_services.png)
+
+### Understanding Serverless
+
+![in28minutes slide image](other/images/cloud_managed_services/7_cloud_managed_services.png)
+
+![in28minutes slide image](other/images/cloud_managed_services/8_cloud_managed_services.png)
+
+### Exploring Google Cloud Platform GCP Compute Services
+
+![in28minutes slide image](other/images/cloud_managed_services/9_cloud_managed_services.png)
 
 ## Getting Started with Google Cloud Functions
 
