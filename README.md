@@ -30,6 +30,32 @@
 
     - [Reducing Launch Time with Custom Images](#reducing-launch-time-with-custom-images)
 
+- [Google Compute - Optimizing Costs and Performance in GCP](#google-compute---optimizing-costs-and-performance-in-gcp)
+
+    - [Understanding Sustained Use Discounts in GCP](#understanding-sustained-use-discounts-in-gcp)
+
+    - [Understanding Committed Use Discounts in GCP](#understanding-committed-use-discounts-in-gcp)
+
+    - [Saving Costs with Preemptible VMs](#saving-costs-with-preemptible-vms)
+
+    - [Quick Update about Spot VMs](#quick-update-about-spot-vms)
+
+    - [Understanding Billing for Google Compute Engine VMs](#understanding-billing-for-google-compute-engine-vms)
+
+    - [Achieving High Availability with Live Migration and Automatic Restart](#achieving-high-availability-with-live-migration-and-automatic-restart)
+
+    - [Understanding Custom Machine Types](#understanding-custom-machine-types)
+
+    - [Exploring GPUs in Google Compute Engine](#exploring-gpus-in-google-compute-engine)
+
+    - [Quick Review - Virtual Machines in Google Cloud Platform](#quick-review---virtual-machines-in-google-cloud-platform)
+
+    - [Best Practices - Virtual Machines in Google Cloud Platform](#best-practices---virtual-machines-in-google-cloud-platform)
+
+    - [Scenarios - Virtual Machines in Google Cloud Platform](#scenarios---virtual-machines-in-google-cloud-platform)
+
+    - [Quick Review - Google Compute Engine](#quick-review---google-compute-engine)
+
 - [Getting Started with Google Cloud Functions](#getting-started-with-google-cloud-functions)
 
     - [Cloud Functions - Important Concepts](#cloud-functions---important-concepts)
@@ -431,6 +457,88 @@ Provide all required configurations and click on create. Once created, you can f
 ![in28minutes demo image](other/images/cloud_compute_engine/28_cloud_compute_engine.png)
 
 Now, you can create an instance template and use this custom image under boot disk section and create VM instances based on this template.
+
+## Google Compute - Optimizing Costs and Performance in GCP
+
+### Understanding Sustained Use Discounts in GCP
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/1_cloud_optimizing_costs.png)
+
+### Understanding Committed Use Discounts in GCP
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/2_cloud_optimizing_costs.png)
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/3_cloud_optimizing_costs.png)
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/4_cloud_optimizing_costs.png)
+
+### Saving Costs with Preemptible VMs
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/5_cloud_optimizing_costs.png)
+
+Proceed with the VM creation and select under **Management, security, disks, networking, sole tenancy**
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/6_cloud_optimizing_costs.png)
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/7_cloud_optimizing_costs.png)
+
+### Quick Update about Spot VMs
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/8_cloud_optimizing_costs.png)
+
+### Understanding Billing for Google Compute Engine VMs
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/9_cloud_optimizing_costs.png)
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/10_cloud_optimizing_costs.png)
+
+Click on 'Create Budget' and configure as per your requirements.
+
+### Achieving High Availability with Live Migration and Automatic Restart
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/11_cloud_optimizing_costs.png)
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/12_cloud_optimizing_costs.png)
+
+### Understanding Custom Machine Types
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/13_cloud_optimizing_costs.png)
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/14_cloud_optimizing_costs.png)
+
+### Exploring GPUs in Google Compute Engine
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/15_cloud_optimizing_costs.png)
+
+There are 2 ways of creating GPU machines:
+
+**1st Way**
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/16_cloud_optimizing_costs.png)
+
+**2nd Way**
+
+Select machine type and then add GPU to it.
+
+![in28minutes demo image](other/images/cloud_optimizing_costs/17_cloud_optimizing_costs.png)
+
+### Quick Review - Virtual Machines in Google Cloud Platform
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/18_cloud_optimizing_costs.png)
+
+### Best Practices - Virtual Machines in Google Cloud Platform
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/19_cloud_optimizing_costs.png)
+
+### Scenarios - Virtual Machines in Google Cloud Platform
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/20_cloud_optimizing_costs.png)
+
+### Quick Review - Google Compute Engine
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/21_cloud_optimizing_costs.png)
+
+![in28minutes slide image](other/images/cloud_optimizing_costs/22_cloud_optimizing_costs.png)
 
 ## Getting Started with Google Cloud Functions
 
