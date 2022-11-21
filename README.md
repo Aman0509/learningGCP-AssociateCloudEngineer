@@ -90,6 +90,22 @@
 
     - [GCloud and MIG - Managing Templates Updates](#gcloud-and-mig---managing-templates-updates)
 
+- [Load Balancing in GCP](#load-balancing-in-gcp)
+
+    - [Getting Started with Cloud Load Balancing](#getting-started-with-cloud-load-balancing)
+
+    - [Understanding HTTP, HTTPS, UDP and TCP Protocols](#understanding-http-https-udp-and-tcp-protocols)
+
+    - [Creating a Load Balancer in GCP](#creating-a-load-balancer-in-gcp)
+
+    - [Understanding Cloud Load Balancing Terminology in GCP](#understanding-cloud-load-balancing-terminology-in-gcp)
+
+    - [Choosing a Load Balancer in GCP](#choosing-a-load-balancer-in-gcp)
+
+    - [Explore Features of Load Balancers](#explore-features-of-load-balancers)
+
+    - [Scenarios - Cloud Load Balancing](#scenarios---cloud-load-balancing)
+
 - [Managed Services in Google Cloud Platform](#managed-services-in-google-cloud-platform)
 
     - [What are Managed Services?](#what-are-managed-services)
@@ -697,6 +713,66 @@ There are multiple commands that you can make use of. You can make use of the *r
 When you're doing *recreate-instances*, you are doing everything manually. However, you can also automate the upgrade to the new version template in a more controlled fashion using *rolling-action start-update*.
 
 ![in28minutes slide image](other/images/cloud_managed_instance_group/18_cloud_managed_instance_group.png)
+
+## Load Balancing in GCP
+
+### Getting Started with Cloud Load Balancing
+
+![in28minutes slide image](other/images/cloud_load_balancing/1_cloud_load_balancing.png)
+
+### Understanding HTTP, HTTPS, UDP and TCP Protocols
+
+![in28minutes slide image](other/images/cloud_load_balancing/2_cloud_load_balancing.png)
+
+![in28minutes slide image](other/images/cloud_load_balancing/3_cloud_load_balancing.png)
+
+![in28minutes slide image](other/images/cloud_load_balancing/4_cloud_load_balancing.png)
+
+Readings:
+
+- [OSI Model Layers and Protocols in Computer Network](https://www.guru99.com/layers-of-osi-model.html)
+
+### Creating a Load Balancer in GCP
+
+![in28minutes demo image](other/images/cloud_load_balancing/5_cloud_load_balancing.png)
+
+Select type of load balancing as per your requirement.
+
+![in28minutes demo image](other/images/cloud_load_balancing/6_cloud_load_balancing.png)
+
+Let's create a HTTP(s) load balancer. For that, click on *Start Configuration* and provide configurations.
+
+![in28minutes demo image](other/images/cloud_load_balancing/7_cloud_load_balancing.png)
+
+Click on *Continue* and configure backend, host and path rules and frontend.
+
+![in28minutes demo image](other/images/cloud_load_balancing/8_cloud_load_balancing.png)
+
+### Understanding Cloud Load Balancing Terminology in GCP
+
+![in28minutes slide image](other/images/cloud_load_balancing/9_cloud_load_balancing.png)
+
+![in28minutes slide image](other/images/cloud_load_balancing/10_cloud_load_balancing.png)
+
+Readings:
+
+- [Cloud Load Balancing overview](https://cloud.google.com/load-balancing/docs/load-balancing-overview)
+
+### Choosing a Load Balancer in GCP
+
+![google cloud docs image](other/images/cloud_load_balancing/11_cloud_load_balancing.png)
+
+Readings:
+
+- [Choose a load balancer](https://cloud.google.com/load-balancing/docs/choosing-load-balancer)
+
+### Explore Features of Load Balancers
+
+![in28minutes slide image](other/images/cloud_load_balancing/12_cloud_load_balancing.png)
+
+### Scenarios - Cloud Load Balancing
+
+![in28minutes slide image](other/images/cloud_load_balancing/13_cloud_load_balancing.png)
 
 ## Managed Services in Google Cloud Platform
 
