@@ -56,6 +56,26 @@
 
     - [Quick Review - Google Compute Engine](#quick-review---google-compute-engine)
 
+- [GCloud for Associate Cloud Engineer](#gcloud-for-associate-cloud-engineer)
+
+    - [Getting Started with GCloud](#getting-started-with-gcloud)
+
+    - [Playing with GCloud Config Set](#playing-with-gcloud-config-set)
+
+    - [Managing Multiple Configurations in GCloud](#managing-multiple-configurations-in-gcloud)
+
+    - [Understanding Command Structure in GCloud to play with Services](#understanding-command-structure-in-gcloud-to-play-with-services)
+
+    - [Playing with GCloud Compute Instance Create](#playing-with-gcloud-compute-instance-create)
+
+    - [Setting Default Region and Zone for Compute Engine](#setting-default-region-and-zone-for-compute-engine)
+
+    - [Exploring GCloud Commands - list and describe](#exploring-gcloud-commands---list-and-describe)
+
+    - [Playing with Compute Instances in GCloud](#playing-with-compute-instances-in-gcloud)
+
+    - [Playing with Instance Templates in GCloud](#playing-with-instance-templates-in-gcloud)
+
 - [Managed Services in Google Cloud Platform](#managed-services-in-google-cloud-platform)
 
     - [What are Managed Services?](#what-are-managed-services)
@@ -551,6 +571,46 @@ Select machine type and then add GPU to it.
 ![in28minutes slide image](other/images/cloud_optimizing_costs/21_cloud_optimizing_costs.png)
 
 ![in28minutes slide image](other/images/cloud_optimizing_costs/22_cloud_optimizing_costs.png)
+
+## GCloud for Associate Cloud Engineer
+
+### Getting Started with GCloud
+
+![in28minutes slide image](other/images/cloud_gcloud/1_cloud_gcloud.png)
+
+![in28minutes slide image](other/images/cloud_gcloud/2_cloud_gcloud.png)
+
+### Playing with GCloud Config Set
+
+![in28minutes slide image](other/images/cloud_gcloud/3_cloud_gcloud.png)
+
+### Managing Multiple Configurations in GCloud
+
+![in28minutes slide image](other/images/cloud_gcloud/4_cloud_gcloud.png)
+
+### Understanding Command Structure in GCloud to play with Services
+
+![in28minutes slide image](other/images/cloud_gcloud/5_cloud_gcloud.png)
+
+### Playing with GCloud Compute Instance Create
+
+![in28minutes slide image](other/images/cloud_gcloud/6_cloud_gcloud.png)
+
+### Setting Default Region and Zone for Compute Engine
+
+![in28minutes slide image](other/images/cloud_gcloud/7_cloud_gcloud.png)
+
+### Exploring GCloud Commands - list and describe
+
+![in28minutes slide image](other/images/cloud_gcloud/8_cloud_gcloud.png)
+
+### Playing with Compute Instances in GCloud
+
+![in28minutes slide image](other/images/cloud_gcloud/9_cloud_gcloud.png)
+
+### Playing with Instance Templates in GCloud
+
+![in28minutes slide image](other/images/cloud_gcloud/10_cloud_gcloud.png)
 
 ## Managed Services in Google Cloud Platform
 
