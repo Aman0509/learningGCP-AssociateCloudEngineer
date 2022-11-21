@@ -1,5 +1,11 @@
 # GCP - Associate Cloud Engineer
 
+## Resources and Useful Links
+
+- [Google Cloud Associate Cloud Engineer - Resources](https://www.in28minutes.com/google-cloud-ace-resources)
+
+- [ExamTopics - Preparation for the Exam](https://www.examtopics.com/exams/google/associate-cloud-engineer/)
+
 ## Contents
 
 - [GCP ACE - Getting Started](#gcp-ace---getting-started)
