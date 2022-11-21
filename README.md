@@ -76,6 +76,20 @@
 
     - [Playing with Instance Templates in GCloud](#playing-with-instance-templates-in-gcloud)
 
+- [Getting Started with Instance Groups](#getting-started-with-instance-groups)
+
+    - [Creating Managed Instance Groups (MIG)](#creating-managed-instance-groups-mig)
+
+    - [Updating a MIG - Rolling Update and Restart](#updating-a-mig---rolling-update-and-restart)
+
+    - [Scenarios - Instance Groups](#scenarios---instance-groups)
+
+    - [Using GCloud to play with MIG](#using-gcloud-to-play-with-mig)
+
+    - [GCloud and MIG - Making Updates](#gcloud-and-mig---making-updates)
+
+    - [GCloud and MIG - Managing Templates Updates](#gcloud-and-mig---managing-templates-updates)
+
 - [Managed Services in Google Cloud Platform](#managed-services-in-google-cloud-platform)
 
     - [What are Managed Services?](#what-are-managed-services)
@@ -611,6 +625,78 @@ Select machine type and then add GPU to it.
 ### Playing with Instance Templates in GCloud
 
 ![in28minutes slide image](other/images/cloud_gcloud/10_cloud_gcloud.png)
+
+## Getting Started with Instance Groups
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/1_cloud_managed_instance_group.png)
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/2_cloud_managed_instance_group.png)
+
+### Creating Managed Instance Groups (MIG)
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/3_cloud_managed_instance_group.png)
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/4_cloud_managed_instance_group.png)
+
+Provide configurations as per your requirements and click on create.
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/5_cloud_managed_instance_group.png)
+
+### Updating a MIG - Rolling Update and Restart
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/6_cloud_managed_instance_group.png)
+
+**Rolling Update**
+
+To configure rolling update, go to instance groups > update VMs
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/7_cloud_managed_instance_group.png)
+
+In this scenario, let's say you want this MIG to run on different Instance template. In summary, you want to update the instance template.
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/8_cloud_managed_instance_group.png)
+
+After that, select type update. With ***Automatic*** update type, you've few more configure options to select.
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/9_cloud_managed_instance_group.png)
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/10_cloud_managed_instance_group.png)
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/11_cloud_managed_instance_group.png)
+
+**Rolling Restart**
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/12_cloud_managed_instance_group.png)
+
+![in28minutes demo image](other/images/cloud_managed_instance_group/13_cloud_managed_instance_group.png)
+
+### Scenarios - Instance Groups
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/14_cloud_managed_instance_group.png)
+
+### Using GCloud to play with MIG
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/15_cloud_managed_instance_group.png)
+
+### GCloud and MIG - Making Updates
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/16_cloud_managed_instance_group.png)
+
+### GCloud and MIG - Managing Templates Updates
+
+In the last section, we looked at a few ways to make updates to our managed instance group and it was concluded with setting of instance template. However, one thing that we did not discuss is when would the template be updated? Will it be updated immediately?
+
+Note that the manage ***instance group configuration*** would be updated immediately, but would the instance be immediately updated to that template? Will there be any downtime while making the update to that specific template?
+
+The answer to that is after updating the instance template you can configure how to do the update. How do you roll out the new template to the existing virtual machines?
+
+There are multiple commands that you can make use of. You can make use of the *recreate-instances* and the *update-instances* that we have used earlier. Or there is another set of command which you can use called *rolling-action start-update*.
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/17_cloud_managed_instance_group.png)
+
+When you're doing *recreate-instances*, you are doing everything manually. However, you can also automate the upgrade to the new version template in a more controlled fashion using *rolling-action start-update*.
+
+![in28minutes slide image](other/images/cloud_managed_instance_group/18_cloud_managed_instance_group.png)
 
 ## Managed Services in Google Cloud Platform
 
