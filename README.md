@@ -1785,9 +1785,9 @@ Readings:
 
 ### Organizing Google Cloud Resources - Projects, Folders and Organization
 
-![in28minutes slide image](other/images/organisation_and_iam/1_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/1_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/2_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/2_cloud_organisation_and_iam.png)
 
 > Note
 >
@@ -1799,27 +1799,27 @@ Readings:
 
 ### Exploring Billing Accounts
 
-![in28minutes slide image](other/images/organisation_and_iam/3_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/3_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/4_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/4_cloud_organisation_and_iam.png)
 
 ### Understanding IAM Best Practice
 
-![in28minutes slide image](other/images/organisation_and_iam/5_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/5_cloud_organisation_and_iam.png)
 
 ### Understanding User Identity Management in GCP
 
-![in28minutes slide image](other/images/organisation_and_iam/6_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/6_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/7_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/7_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Members and Identities
 
 Let's look at different types of IAM Members or Identities:
 
-![in28minutes slide image](other/images/organisation_and_iam/8_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/8_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/9_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/9_cloud_organisation_and_iam.png)
 
 Readings:
 
@@ -1828,7 +1828,7 @@ Readings:
 
 ### Understanding Organization Policy Service
 
-![in28minutes slide image](other/images/organisation_and_iam/10_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/10_cloud_organisation_and_iam.png)
 
 > Note
 >
@@ -1836,7 +1836,7 @@ Readings:
 
 ### Exploring IAM policy at multiple levels - Resource Hierarchy
 
-![in28minutes slide image](other/images/organisation_and_iam/11_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/11_cloud_organisation_and_iam.png)
 
 Readings:
 
@@ -1844,57 +1844,57 @@ Readings:
 
 ### Exploring IAM Predefined Roles - Organization, Billing and Project
 
-![in28minutes slide image](other/images/organisation_and_iam/12_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/12_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/13_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/13_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/14_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/14_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Google Compute Engine
 
-![in28minutes slide image](other/images/organisation_and_iam/15_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/15_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Google App Engine
 
-![in28minutes slide image](other/images/organisation_and_iam/16_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/16_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Scenarios
 
-![in28minutes slide image](other/images/organisation_and_iam/17_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/17_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Google Kubernetes Engine
 
-![in28minutes slide image](other/images/organisation_and_iam/18_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/18_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Google Cloud Storage
 
-![in28minutes slide image](other/images/organisation_and_iam/19_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/19_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Google Cloud BigQuery
 
-![in28minutes slide image](other/images/organisation_and_iam/20_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/20_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Predefined Roles - Logging Service Accounts
 
-![in28minutes slide image](other/images/organisation_and_iam/21_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/21_cloud_organisation_and_iam.png)
 
 ### Other Important IAM Roles
 
-![in28minutes slide image](other/images/organisation_and_iam/22_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/22_cloud_organisation_and_iam.png)
 
 ### SSHing into Linux VMs
 
-![in28minutes slide image](other/images/organisation_and_iam/23_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/23_cloud_organisation_and_iam.png)
 
-![in28minutes slide image](other/images/organisation_and_iam/24_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/24_cloud_organisation_and_iam.png)
 
 ### Exploring IAM Scenarios
 
-![in28minutes slide image](other/images/organisation_and_iam/25_organisation_and_iam.png)
+![in28minutes slide image](other/images/cloud_organisation_and_iam/25_cloud_organisation_and_iam.png)
 
 ## Exploring Google Cloud Platform - GCP - Pricing Calculator
 
-![in28minutes slide image](other/images/pricing_calculator/1_pricing_calculator.png)
+![in28minutes slide image](other/images/cloud_pricing_calculator/1_cloud_pricing_calculator.png)
 
 Click here to access [Google Price Calculator](https://cloud.google.com/products/calculator).
 
