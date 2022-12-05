@@ -124,6 +124,46 @@
 
     - [Exploring Google Cloud Platform GCP Compute Services](#exploring-google-cloud-platform-gcp-compute-services)
 
+- [Getting Started with Google App Engine](#getting-started-with-google-app-engine)
+
+    - [Understanding App Engine Environments - Standard & Flexible](#understanding-app-engine-environments---standard--flexible)
+
+    - [Understanding App Engine Components Hierarchy](#understanding-app-engine-components-hierarchy)
+
+    - [Comparing App Engine Environments - Standard vs Flexible](#comparing-app-engine-environments---standard-vs-flexible)
+
+    - [Scaling Google App Engine Instances](#scaling-google-app-engine-instances)
+
+    - [Playing with App Engine in GCP - Google Cloud Platform](#playing-with-app-engine-in-gcp---google-cloud-platform)
+
+    - [Exploring App Engine App, Services and Versions](#exploring-app-engine-app-services-and-versions)
+
+    - [Splitting Traffic between Multiple Versions in App Engine](#splitting-traffic-between-multiple-versions-in-app-engine)
+
+    - [Create a New Service and Playing with App Engine](#create-a-new-service-and-playing-with-app-engine)
+
+    - [Understanding App Engine's app.yaml](#understanding-app-engines-appyaml)
+
+    - [Understanding Request Routing in Google App Engine](#understanding-request-routing-in-google-app-engine)
+
+    - [Deploying New App Engine Versions without Downtime in GCP](#deploying-new-app-engine-versions-without-downtime-in-gcp)
+
+    - [Splitting Traffic between App Engine Version in GCP](#splitting-traffic-between-app-engine-version-in-gcp)
+
+    - [Exploring App Engine and GCloud - GCloud App](#exploring-app-engine-and-gcloud---gcloud-app)
+
+    - [Exploring App Engine and GCloud - GCloud App Instances](#exploring-app-engine-and-gcloud---gcloud-app-instances)
+
+    - [Exploring App Engine and GCloud - GCloud App's Services & Versions](#exploring-app-engine-and-gcloud---gcloud-apps-services--versions)
+
+    - [Creating Cron Jobs in App Engine](#creating-cron-jobs-in-app-engine)
+
+    - [Exploring App Engine YAML Files - dispatch and queue](#exploring-app-engine-yaml-files---dispatch-and-queue)
+
+    - [Important Things to Remember - Google App Engine](#important-things-to-remember---google-app-engine)
+
+    - [Scenarios - Google App Engine](#scenarios---google-app-engine)
+
 - [Getting Started with Google Cloud Functions](#getting-started-with-google-cloud-functions)
 
     - [Cloud Functions - Important Concepts](#cloud-functions---important-concepts)
@@ -809,6 +849,176 @@ Readings:
 ### Exploring Google Cloud Platform GCP Compute Services
 
 ![in28minutes slide image](other/images/cloud_managed_services/9_cloud_managed_services.png)
+
+## Getting Started with Google App Engine
+
+![in28minutes slide image](other/images/cloud_app_engine/1_cloud_app_engine.png)
+
+![in28minutes slide image](other/images/cloud_app_engine/2_cloud_app_engine.png)
+
+### Understanding App Engine Environments - Standard & Flexible
+
+![in28minutes slide image](other/images/cloud_app_engine/3_cloud_app_engine.png)
+
+### Understanding App Engine Components Hierarchy
+
+![in28minutes slide image](other/images/cloud_app_engine/4_cloud_app_engine.png)
+
+### Comparing App Engine Environments - Standard vs Flexible
+
+![in28minutes slide image](other/images/cloud_app_engine/5_cloud_app_engine.png)
+
+### Scaling Google App Engine Instances
+
+![in28minutes slide image](other/images/cloud_app_engine/6_cloud_app_engine.png)
+
+### Playing with App Engine in GCP - Google Cloud Platform
+
+- Go to search bar > type 'App Engine' > click on 'Create application'
+
+    ![in28minutes demo image](other/images/cloud_app_engine/7_cloud_app_engine.png)
+
+- Select Region and click on 'Create app'
+
+    ![in28minutes demo image](other/images/cloud_app_engine/8_cloud_app_engine.png)
+
+- Select language and environment and click on 'Next'
+
+    ![in28minutes demo image](other/images/cloud_app_engine/9_cloud_app_engine.png)
+
+- App engine app will be created successfully.
+
+- Now to deploy service to this app, you can either use GCloud SDK or cloud shell. Let's use cloud shell.
+
+- For demo purpose, let's write simple Python flask program via inbuilt editor in cloud shell (focus only on code inside default-service directory for now).
+
+    ![in28minutes demo image](other/images/cloud_app_engine/10_cloud_app_engine.png)
+
+- Inside `app.yaml`, you have application configuration required for App Engine. For instance, 'runtime' is one of the configuration which tells App Engine about the application environment.
+
+    ```
+    runtime: python39
+    ```
+
+- To deploy, use command, `gcloud app deploy`. Ensure, you are on the right project.
+
+    ![in28minutes demo image](other/images/cloud_app_engine/11_cloud_app_engine.png)
+
+    ![in28minutes demo image](other/images/cloud_app_engine/12_cloud_app_engine.png)
+
+- In this deployment, we didn't specify the service name, so it will be deployed as default service. Also, we didn't specify the default service for this specific deployment.
+
+- Once this deployment is successful, you can go to the URL at which your app is exposed and check if it is working fine.
+
+    ![in28minutes demo image](other/images/cloud_app_engine/13_cloud_app_engine.png)
+
+### Exploring App Engine App, Services and Versions
+
+**App Dashboards**
+
+In App Dashboards, you have can see metrics and summary.
+
+![in28minutes demo image](other/images/cloud_app_engine/14_cloud_app_engine.png)
+
+**Services**
+
+![in28minutes demo image](other/images/cloud_app_engine/15_cloud_app_engine.png)
+
+**Versions**
+
+![in28minutes demo image](other/images/cloud_app_engine/16_cloud_app_engine.png)
+
+You can also get above information using commands:
+
+![in28minutes demo image](other/images/cloud_app_engine/17_cloud_app_engine.png)
+
+Now, let's say you want to deploy another version of it. For that, you can do it like below:
+
+![in28minutes demo image](other/images/cloud_app_engine/18_cloud_app_engine.png)
+
+During the next version deployment, your application will keep on running of current version. So, there will be no downtime. As soon as the next version is deployed. Traffic will be shifted to the new version.
+
+To find out the link of this version (or active version), you can use `gcloud app browse` command. However, to find out the link for specific version, just add `--version=<version>` flag.
+
+![in28minutes demo image](other/images/cloud_app_engine/19_cloud_app_engine.png)
+
+### Splitting Traffic between Multiple Versions in App Engine
+
+Previously, we had seen that after deploying new version, full traffic was automatically shifted to it. However, sometimes, you really don't want this rather slowly transfer the traffic to new version after doing some testing.
+
+Let's suppose, currently our app is running on **v2** and now, we are updating it to **v3**.
+
+`--no-promote`, it will disable the transfer of all traffic to the newly deployed version.
+
+![in28minutes demo image](other/images/cloud_app_engine/20_cloud_app_engine.png)
+
+After verifying that everything is working fine. You can now shift or split the traffic between multiple versions.
+
+![in28minutes demo image](other/images/cloud_app_engine/21_cloud_app_engine.png)
+
+Readings:
+
+- [gcloud app services set-traffic](https://cloud.google.com/sdk/gcloud/reference/app/services/set-traffic)
+
+### Create a New Service and Playing with App Engine
+
+In addition to the default service, you can create the multiple services. In our example, we will create the new service whose code is inside `my-first-service`. We will deploy the same. After deploy, new service is created with it's first version.
+
+![in28minutes demo image](other/images/cloud_app_engine/22_cloud_app_engine.png)
+
+If you check the services, you will find 2 services running.
+
+![in28minutes demo image](other/images/cloud_app_engine/23_cloud_app_engine.png)
+
+To find the link for the new service's version, do like below:
+
+![in28minutes demo image](other/images/cloud_app_engine/24_cloud_app_engine.png)
+
+Just add `--version` flag if you are looking for a specific version of that service.
+
+### Understanding App Engine's app.yaml
+
+![in28minutes slide image](other/images/cloud_app_engine/25_cloud_app_engine.png)
+
+### Understanding Request Routing in Google App Engine
+
+![in28minutes slide image](other/images/cloud_app_engine/26_cloud_app_engine.png)
+
+### Deploying New App Engine Versions without Downtime in GCP
+
+![in28minutes slide image](other/images/cloud_app_engine/27_cloud_app_engine.png)
+
+### Splitting Traffic between App Engine Version in GCP
+
+![in28minutes slide image](other/images/cloud_app_engine/28_cloud_app_engine.png)
+
+### Exploring App Engine and GCloud - GCloud App
+
+![in28minutes slide image](other/images/cloud_app_engine/29_cloud_app_engine.png)
+
+### Exploring App Engine and GCloud - GCloud App Instances
+
+![in28minutes slide image](other/images/cloud_app_engine/30_cloud_app_engine.png)
+
+### Exploring App Engine and GCloud - GCloud App's Services & Versions
+
+![in28minutes slide image](other/images/cloud_app_engine/31_cloud_app_engine.png)
+
+### Creating Cron Jobs in App Engine
+
+![in28minutes slide image](other/images/cloud_app_engine/32_cloud_app_engine.png)
+
+### Exploring App Engine YAML Files - dispatch and queue
+
+![in28minutes slide image](other/images/cloud_app_engine/33_cloud_app_engine.png)
+
+### Important Things to Remember - Google App Engine
+
+![in28minutes slide image](other/images/cloud_app_engine/34_cloud_app_engine.png)
+
+### Scenarios - Google App Engine
+
+![in28minutes slide image](other/images/cloud_app_engine/35_cloud_app_engine.png)
 
 ## Getting Started with Google Cloud Functions
 
