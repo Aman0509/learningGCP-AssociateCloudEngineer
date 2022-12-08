@@ -164,6 +164,22 @@
 
     - [Scenarios - Google App Engine](#scenarios---google-app-engine)
 
+- [Getting Started with Google Kubernetes Engine](#getting-started-with-google-kubernetes-engine)
+
+    - [K8s Journey - Creating a GKE Cluster](#k8s-journey---creating-a-gke-cluster)
+
+    - [Understanding Kubernetes Clusters - Google Kubernetes Engine](#understanding-kubernetes-clusters---google-kubernetes-engine)
+
+    - [Getting Started with Google Container Registry(GCR)](#getting-started-with-google-container-registrygcr)
+
+    - [Important Things to Remember - GKE](#important-things-to-remember---gke)
+
+    - [Scenarios - GKE](#scenarios---gke)
+
+    - [Quick Review - Command Line - gcloud container clusters](#quick-review---command-line---gcloud-container-clusters)
+
+    - [Quick Review of GKE & K8s](#quick-review-of-gke--k8s)
+
 - [Getting Started with Google Cloud Functions](#getting-started-with-google-cloud-functions)
 
     - [Cloud Functions - Important Concepts](#cloud-functions---important-concepts)
@@ -1019,6 +1035,66 @@ Just add `--version` flag if you are looking for a specific version of that serv
 ### Scenarios - Google App Engine
 
 ![in28minutes slide image](other/images/cloud_app_engine/35_cloud_app_engine.png)
+
+## Getting Started with Google Kubernetes Engine
+
+![in28minutes slide image](other/images/cloud_gke/1_cloud_gke.png)
+
+![in28minutes slide image](other/images/cloud_gke/2_cloud_gke.png)
+
+### K8s Journey - Creating a GKE Cluster
+
+In search bar, type 'Kubernetes Engine' > Create Cluster
+
+![in28minutes demo image](other/images/cloud_gke/3_cloud_gke.png)
+
+You will 2 cluster modes
+
+![in28minutes demo image](other/images/cloud_gke/4_cloud_gke.png)
+
+![in28minutes slide image](other/images/cloud_gke/5_cloud_gke.png)
+
+For now, click on the standard, provide the configurations and click on create.
+
+Now, once cluster is created successfully, connect to it and you can perform K8s related tasks using `kubectl` CLI.
+
+![in28minutes demo image](other/images/cloud_gke/6_cloud_gke.png)
+
+![in28minutes slide image](other/images/cloud_gke/7_cloud_gke.png)
+
+Readings:
+
+- [Types of clusters](https://cloud.google.com/kubernetes-engine/docs/concepts/types-of-clusters#:~:text=the%20Autopilot%20overview.-,Cluster%20configuration%20choices,best%20for%20your%20production%20workloads.)
+
+- [Google Kubernetes Engine](https://tutorialsdojo.com/google-kubernetes-engine-gke/)
+
+### Understanding Kubernetes Clusters - Google Kubernetes Engine
+
+![in28minutes slide image](other/images/cloud_gke/8_cloud_gke.png)
+
+![in28minutes slide image](other/images/cloud_gke/9_cloud_gke.png)
+
+### Getting Started with Google Container Registry(GCR)
+
+![in28minutes slide image](other/images/cloud_gke/10_cloud_gke.png)
+
+### Important Things to Remember - GKE
+
+![in28minutes slide image](other/images/cloud_gke/11_cloud_gke.png)
+
+### Scenarios - GKE
+
+![in28minutes slide image](other/images/cloud_gke/12_cloud_gke.png)
+
+![in28minutes slide image](other/images/cloud_gke/13_cloud_gke.png)
+
+### Quick Review - Command Line - gcloud container clusters
+
+![in28minutes slide image](other/images/cloud_gke/14_cloud_gke.png)
+
+### Quick Review of GKE & K8s
+
+![in28minutes slide image](other/images/cloud_gke/15_cloud_gke.png)
 
 ## Getting Started with Google Cloud Functions
 
