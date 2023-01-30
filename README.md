@@ -446,49 +446,49 @@
 
 ### Introduction to Cloud and GCP - Google Cloud Platform
 
-![in28minutes slide image](other/images/cloud_ace_getting_started/1_cloud_ace_getting_started.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1WrMoSMzogSMpRisec0BQdifJ_yk59Awm)
 
-![in28minutes slide image](other/images/cloud_ace_getting_started/2_cloud_ace_getting_started.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1uQjQWu0kcgt7OdqY4I1wz0bYsq8kmOw9)
 
-![in28minutes slide image](other/images/cloud_ace_getting_started/3_cloud_ace_getting_started.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1FzaQGH6GTQCmFh5g1JjExpwxqOwQ68Az)
 
-![in28minutes slide image](other/images/cloud_ace_getting_started/4_cloud_ace_getting_started.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1fVY7k2XcjatISsd2btYb1YAF_Bjx0aiH)
 
-![in28minutes slide image](other/images/cloud_ace_getting_started/5_cloud_ace_getting_started.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=12YQde3IxWqo3kBaJch_KoRISd_756thn)
 
-![in28minutes slide image](other/images/cloud_ace_getting_started/6_cloud_ace_getting_started.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1nGR4Em-iOHSoXgUJlew4RS5gXJ0eppBQ)
 
 ## Google Cloud Regions and Zones
 
 ### Need for Regions and Zones
 
-![in28minutes slide image](other/images/cloud_regions_and_zones/1_cloud_regions_and_zones.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1QqJbb6s7Ev7q0GSyRDU30OVviDEOEzFO)
 
-![in28minutes slide image](other/images/cloud_regions_and_zones/2_cloud_regions_and_zones.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1upPHICA6aj2KHLmFF5Rhgb_ZGkQZaOHE)
 
-![in28minutes slide image](other/images/cloud_regions_and_zones/3_cloud_regions_and_zones.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1311awyFihNhqIu45kE64RiVYyPyCWovM)
 
 ### Understanding Regions and Zones in GCP
 
-![in28minutes slide image](other/images/cloud_regions_and_zones/4_cloud_regions_and_zones.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1nbtAyiqz-S_eo2thGLvbJVTFKOwSwRU0)
 
-![in28minutes slide image](other/images/cloud_regions_and_zones/5_cloud_regions_and_zones.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1X3kBTs7wtRoNvNHkmpUmfimV8HTLsKbk)
 
-![in28minutes slide image](other/images/cloud_regions_and_zones/6_cloud_regions_and_zones.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1pnMbKpMqg94DQPKl5XO5VEiGI74mvfFE)
 
 ## Google Compute Engine for Associate Cloud Engineer
 
 ### Getting started with Google Compute Engine - GCE
 
-![in28minutes slide image](other/images/cloud_compute_engine/1_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1uLbBQNpJ9jtgvbzXUKJjyKemtv5orIx7)
 
-![in28minutes slide image](other/images/cloud_compute_engine/2_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1_iER8r9X3WV8m1s2x3SF8VJiWlDlkB0b)
 
-![in28minutes slide image](other/images/cloud_compute_engine/3_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1SkxfFFYSkwYdBKOd6wwXzOGDWi7LScgG)
 
 - Go to search bar > type 'compute engine' and hit enter > create
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/4_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1aWhxyoHQP2ZdoTi7g_I5svpOZj1EgDyW)
 
 - Provide configurations like, name, region, machine type, os details etc and then click on create.
 
@@ -500,85 +500,85 @@ Readings:
 
 ### Understanding Machine Types and Images in Google Compute Engine
 
-![in28minutes slide image](other/images/cloud_compute_engine/5_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1wXjWiIkOhQBdwJZn0K5P09GMaKdWLtkb)
 
-![in28minutes slide image](other/images/cloud_compute_engine/6_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1o7hJvccCZoUw5ao9Swm3Ey9SrBwr0P6h)
 
-![in28minutes slide image](other/images/cloud_compute_engine/7_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1YBwNJg6i3VBN_9oZCqG7aMaxBC4G8EKw)
 
 ### Installing HTTP Webserver on GCE VM
 
 - Once VM is created, install Apache in it and inside the index page, let's just keep the VM's hostname and IP address.
 
-    ![in28minutes slide image](other/images/cloud_compute_engine/8_cloud_compute_engine.png)
+    ![in28minutes slide image](https://drive.google.com/uc?export=view&id=1_GvELP9FwrL5z6XntUq5NCdY3NJ7T8eo)
 
 - To launch the index page hosted on VM, use the **External IP**. Make sure you have allow the HTTP/HTTPS traffic on this VM.
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/9_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=11s7hHLfoW_1cfkug-d9R-elyDIgYou7l)
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/10_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1-RqrniDYAiEfQEVgxSIgqIMgR_4YCw-f)
 
 ### Understanding Internal and External IP addresses
 
-![in28minutes slide image](other/images/cloud_compute_engine/11_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1kai69AKgBvUgKVvz-bPmq8gKwsZuSuUf)
 
 ### Playing with Static IP Addresses
 
-![in28minutes slide image](other/images/cloud_compute_engine/12_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1OLaNGf7TMNkReQ-MgDC-huJpLMg9vVMh)
 
 - Go to Search bar > type **External IP Addresses** > list of all external IP addresses can be found here which are assigned to VMs
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/13_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1Ptd5hj654ykbzdlMs4piTxph8MZmX3nQ)
 
 - Now to reserver an IP or create a static IP, click on **Reserve Static Address** and provide the configurations.
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/14_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1JM-_t0ZN0D3jvNGc7ejQvaGltUc2RUPe)
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/15_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1jfx5dowTc0W6oJ_bprxd05o3CcTDDrM2)
 
 - Once static IP is created, it needs to be assigned to the VM. For that, click on **change** and select the VM.
 
-    ![in28minutes demo image](other/images/cloud_compute_engine/16_cloud_compute_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1Fbnf37TzjcTcWvHszVkzWJhOIZr9WIEf)
 
-![in28minutes slide image](other/images/cloud_compute_engine/17_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1cM9uoS9nb8OGVJZIgFSuEbOMSoz4CED2)
 
 ### Simplifying the Web Server setup with Compute Engine Startup Script
 
-![in28minutes slide image](other/images/cloud_compute_engine/18_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Y8bZTsljfbA3U10urA8rUAuL5wz7-AWO)
 
-![in28minutes slide image](other/images/cloud_compute_engine/19_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1tTkl80tCC7KsdzKqo13AcjLgeeV_RTkr)
 
 We will configure our startup script during VM creation. For that, while creating VM and configuring options, go to **Management** > under **Automation**, you will find **Startup script** text area. Update your script there and create instance.
 
-![in28minutes demo image](other/images/cloud_compute_engine/20_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1DiBMHXsUFlZRK0AgnePKzIjlDnyH-vlA)
 
 To test it, click on external IP and verify everything's working as expected.
 
 ### Simplifying VM creation with Instance Templates
 
-![in28minutes slide image](other/images/cloud_compute_engine/21_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1z8eJc8Pg1RujVLdp95scFmJe_4YdXgbX)
 
-![in28minutes demo image](other/images/cloud_compute_engine/22_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=15FD20XNSovzFPJFllOM3EC1onIXD6zeJ)
 
-![in28minutes demo image](other/images/cloud_compute_engine/23_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1ZeQeVUjPYpXEIsk0OkW6gAz7Bta1sQ_b)
 
-![in28minutes demo image](other/images/cloud_compute_engine/24_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1GmdU6TkSjYp0W8nyPdgIAqlRJAvygwNZ)
 
 Click on create and new instance template will be created. Based on it, now, VMs can be created.
 
-![in28minutes demo image](other/images/cloud_compute_engine/25_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1pcyF1WR-G5HOTe-Gy9h33_CFBBJikNcc)
 
 ### Reducing Launch Time with Custom Images
 
-![in28minutes slide image](other/images/cloud_compute_engine/26_cloud_compute_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1DWFlv6chivTW6AipbevQsNvCWnY3J9rl)
 
 To create image from a disk, ensure VM instance attached with that disk should be in stopped state.
 
-![in28minutes demo image](other/images/cloud_compute_engine/27_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1OV0oZ-jfByLneXMrNug15i54Xcf-XumI)
 
 Provide all required configurations and click on create. Once created, you can find it under **Images** tab.
 
-![in28minutes demo image](other/images/cloud_compute_engine/28_cloud_compute_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1lxy6UHwBCkvn_rfcjSzL2GgwWefm-vtm)
 
 Now, you can create an instance template and use this custom image under boot disk section and create VM instances based on this template.
 
@@ -586,179 +586,179 @@ Now, you can create an instance template and use this custom image under boot di
 
 ### Understanding Sustained Use Discounts in GCP
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/1_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1WAIghO06udmc3fJiHM7auHbAe9IU99mQ)
 
 ### Understanding Committed Use Discounts in GCP
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/2_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1PdC069s8TsPoXyQbIwvZ07z37FdmNuFG)
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/3_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1ezyOSelTEihlhs-XdOfl5lnCSMv7rsgW)
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/4_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1g15ieMdMR4sKu0OcP7NTcI-rDpaDGBkd)
 
 ### Saving Costs with Preemptible VMs
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/5_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=15aIHh6BNuztvGAExRk6JovcLO6duzD3r)
 
 Proceed with the VM creation and select under **Management, security, disks, networking, sole tenancy**
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/6_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1DzBsfwPpN34Pf8W8J5LnG3OwRkqFRcl-)
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/7_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1zjYJvejHa76scT7iTScdL16RTt7oPgGN)
 
 ### Quick Update about Spot VMs
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/8_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1NrAYySIcAakWGQ8jJKlMiG9jTv07DG_p)
 
 ### Understanding Billing for Google Compute Engine VMs
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/9_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1aD39aIHRYJjWVhJ_HDjx_oOLta0WXWIS)
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/10_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=11dJdga-gSl8OdcaoXhdQmUyubcVYkFV7)
 
 Click on 'Create Budget' and configure as per your requirements.
 
 ### Achieving High Availability with Live Migration and Automatic Restart
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/11_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1rzFiQyF_o5kyyNwUH1P7XJ8Xs-Bqxr7z)
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/12_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1Jov16XgKAs2OiSdaG2zo6z6HHGRqkwGT)
 
 ### Understanding Custom Machine Types
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/13_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=13g09L0a9pPxMX-DkntQ0JnIS8lCVTb-y)
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/14_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1RfxZGnsfIIPIVPKANKBEIYGkfSLJgTLH)
 
 ### Exploring GPUs in Google Compute Engine
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/15_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xAru82w5XY9ynUNTo8evW4RbemiA6Rjt)
 
 There are 2 ways of creating GPU machines:
 
 **1st Way**
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/16_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1m5MnNaREdtD3Hgh8u1LGE_dS71-1iFda)
 
 **2nd Way**
 
 Select machine type and then add GPU to it.
 
-![in28minutes demo image](other/images/cloud_optimizing_costs/17_cloud_optimizing_costs.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1nKyJ9PgD047m7jHI3yofJzv-9YcQtTqY)
 
 ### Quick Review - Virtual Machines in Google Cloud Platform
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/18_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1h8Z6nLtWxu53M_pdLsF1DOflQmxWIi17)
 
 ### Best Practices - Virtual Machines in Google Cloud Platform
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/19_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1fre3DdmG70vprMPbi-ke7XDOgFHOHHAH)
 
 ### Scenarios - Virtual Machines in Google Cloud Platform
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/20_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1gaBfAEkRdBs6OZiE7TFJOz1hF3JN7zBU)
 
 ### Quick Review - Google Compute Engine
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/21_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Ks1nwnrX17EjwPSQgpVPv57ha4rVf7cZ)
 
-![in28minutes slide image](other/images/cloud_optimizing_costs/22_cloud_optimizing_costs.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1EWAKoAM54VvaCJ1MLZMGo2Duy-Bj-sOD)
 
 ## GCloud for Associate Cloud Engineer
 
 ### Getting Started with GCloud
 
-![in28minutes slide image](other/images/cloud_gcloud/1_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1i-kj6JP7rGgOlr1sKlRvmdgSXZ-_tEz3)
 
-![in28minutes slide image](other/images/cloud_gcloud/2_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1eJnLEJaOmiGWgmYHzjDJvBbyhKhVTDLS)
 
 ### Playing with GCloud Config Set
 
-![in28minutes slide image](other/images/cloud_gcloud/3_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1XEUMUWWQE2NjoMjLcu1AjiZ9XTLQLq6z)
 
 ### Managing Multiple Configurations in GCloud
 
-![in28minutes slide image](other/images/cloud_gcloud/4_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ApSaUE8dTeI3B3IrJV_Q_hc33nlS-tTW)
 
 ### Understanding Command Structure in GCloud to play with Services
 
-![in28minutes slide image](other/images/cloud_gcloud/5_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=13nTigSnF8bEpyK98dL8O3OugwpWAOWDg)
 
 ### Playing with GCloud Compute Instance Create
 
-![in28minutes slide image](other/images/cloud_gcloud/6_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1iQiPg0tp7AWYMkFHptew7kvLg2zRgoa7)
 
 ### Setting Default Region and Zone for Compute Engine
 
-![in28minutes slide image](other/images/cloud_gcloud/7_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1S1t_lDuh15Ngi8NlZDebjzyOHU589PjX)
 
 ### Exploring GCloud Commands - list and describe
 
-![in28minutes slide image](other/images/cloud_gcloud/8_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=152-3PU7aoRpz1A0TNQpWdhgWAchwF8BN)
 
 ### Playing with Compute Instances in GCloud
 
-![in28minutes slide image](other/images/cloud_gcloud/9_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1NBof-6n76RtdWkTQedudPxaM_5rnt7OC)
 
 ### Playing with Instance Templates in GCloud
 
-![in28minutes slide image](other/images/cloud_gcloud/10_cloud_gcloud.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1EAkywAH6b0iXVUfWzQ3wCcgUGWxSokdJ)
 
 ## Getting Started with Instance Groups
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/1_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1lzzDPiUUQLEqgv7q3tn9Gcu2akzKu2vX)
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/2_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1msc-P0zKH8TrHY-hXKIRkTIylC7roP2z)
 
 ### Creating Managed Instance Groups (MIG)
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/3_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1-FjJlDa176zVTLf96-0xJuIHU2koa-aG)
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/4_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1MlDWl7FWf9iSlzM3AsEX9Y0KUE0xiNXS)
 
 Provide configurations as per your requirements and click on create.
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/5_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1tvy8L5rfMPY9ptdeP8wrFCHVCA1P8uZg)
 
 ### Updating a MIG - Rolling Update and Restart
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/6_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ig0BgvQ-atsM-f5zzjvGcg5XRhYVtR_j)
 
 **Rolling Update**
 
 To configure rolling update, go to instance groups > update VMs
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/7_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1yDoPpYWToBXnRwoD_scRbaqMKXB2QK_Z)
 
 In this scenario, let's say you want this MIG to run on different Instance template. In summary, you want to update the instance template.
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/8_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1cGhQMjy8K_sJVoj4xPzHbOPG7T5OcqBF)
 
 After that, select type update. With ***Automatic*** update type, you've few more configure options to select.
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/9_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1oTYefHuM00heZ-V3zNHiD0eEdK7KHHte)
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/10_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1S-XUtulam0m01PR_IvPNDRvpbfM_aGzh)
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/11_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1qo3A2SmtGjfFBTZWI8ExKI9S60OUGfMs)
 
 **Rolling Restart**
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/12_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=15dCanJMXmlReT40pAfuy9rvbkrk2ljtm)
 
-![in28minutes demo image](other/images/cloud_managed_instance_group/13_cloud_managed_instance_group.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1J9x0E48zDAlNxLllYCOdDBIrBWT_tI5A)
 
 ### Scenarios - Instance Groups
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/14_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1sT3wpCf9YvM-4nJb-ArxweuJlrv6csOt)
 
 ### Using GCloud to play with MIG
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/15_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1WsI-nqVci73reitqNysW6uRXs656J7Fz)
 
 ### GCloud and MIG - Making Updates
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/16_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xiR8hLjSuWuKwcIiv_k0C74D7vVVZjTS)
 
 ### GCloud and MIG - Managing Templates Updates
 
@@ -770,25 +770,25 @@ The answer to that is after updating the instance template you can configure how
 
 There are multiple commands that you can make use of. You can make use of the *recreate-instances* and the *update-instances* that we have used earlier. Or there is another set of command which you can use called *rolling-action start-update*.
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/17_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1YExzqSkw3HghMmyNdar_hhjLum7Od9O9)
 
 When you're doing *recreate-instances*, you are doing everything manually. However, you can also automate the upgrade to the new version template in a more controlled fashion using *rolling-action start-update*.
 
-![in28minutes slide image](other/images/cloud_managed_instance_group/18_cloud_managed_instance_group.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1jidt1QKpUpiNaeH191m8xVq45BO2rmXV)
 
 ## Load Balancing in GCP
 
 ### Getting Started with Cloud Load Balancing
 
-![in28minutes slide image](other/images/cloud_load_balancing/1_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=12exRtMYoeuBwJscJY9K_icKekBXDwN3t)
 
 ### Understanding HTTP, HTTPS, UDP and TCP Protocols
 
-![in28minutes slide image](other/images/cloud_load_balancing/2_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=12HkTxXZPxFwQxRjQZvZdMjYdaXIQKtLU)
 
-![in28minutes slide image](other/images/cloud_load_balancing/3_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1GZO8FGfMaUs228SkZ26r8EC09tdhVgdc)
 
-![in28minutes slide image](other/images/cloud_load_balancing/4_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1p_MZ7QAF70o3lF6C34CtcuvUpRMobCj7)
 
 Readings:
 
@@ -796,25 +796,25 @@ Readings:
 
 ### Creating a Load Balancer in GCP
 
-![in28minutes demo image](other/images/cloud_load_balancing/5_cloud_load_balancing.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1rmoVf_UaBhiA7dZofv05OqIQcxhTBfmT)
 
 Select type of load balancing as per your requirement.
 
-![in28minutes demo image](other/images/cloud_load_balancing/6_cloud_load_balancing.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1tJUH8QnpAdzNOcas8xFqLFPBKYOhklX9)
 
 Let's create a HTTP(s) load balancer. For that, click on *Start Configuration* and provide configurations.
 
-![in28minutes demo image](other/images/cloud_load_balancing/7_cloud_load_balancing.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1I9Mu0qANDvF645-BocwfdpWR2Q7_mQEo)
 
 Click on *Continue* and configure backend, host and path rules and frontend.
 
-![in28minutes demo image](other/images/cloud_load_balancing/8_cloud_load_balancing.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1VB-WizKjfrRIx5JHW6P1YZbPxoAax9tW)
 
 ### Understanding Cloud Load Balancing Terminology in GCP
 
-![in28minutes slide image](other/images/cloud_load_balancing/9_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1tAAVKzTclSjqUtdTpZfBb_dRqavrn8Ek)
 
-![in28minutes slide image](other/images/cloud_load_balancing/10_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1MRLya9o1IQrhT0Z9TJxRtrHxO6VuMeUO)
 
 Readings:
 
@@ -822,7 +822,7 @@ Readings:
 
 ### Choosing a Load Balancer in GCP
 
-![google cloud docs image](other/images/cloud_load_balancing/11_cloud_load_balancing.png)
+![google cloud docs image](https://drive.google.com/uc?export=view&id=13HDerwLtHAjw8sZUtFn-U4ZaplrCmY47)
 
 Readings:
 
@@ -830,77 +830,77 @@ Readings:
 
 ### Explore Features of Load Balancers
 
-![in28minutes slide image](other/images/cloud_load_balancing/12_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1kZKh9UPW1OGmA1QrNasmBcgsdPLpTO4L)
 
 ### Scenarios - Cloud Load Balancing
 
-![in28minutes slide image](other/images/cloud_load_balancing/13_cloud_load_balancing.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1pHbhAfHJVwZl7n91j5o_hPFvtqrMxEow)
 
 ## Managed Services in Google Cloud Platform
 
 ### What are Managed Services?
 
-![in28minutes slide image](other/images/cloud_managed_services/1_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1bjmATeNbD_zjryEugPLvif_9Tz7k81HT)
 
 ### Understanding IAAS and PAAS
 
-![in28minutes slide image](other/images/cloud_managed_services/2_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1yr0ga_FOk750GD-4aHTIg17AMkGOUcsk)
 
-![in28minutes slide image](other/images/cloud_managed_services/3_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1anQ1G51YzZ8Z3LzrlFTovJCRVMOA0YwN)
 
 ### Understanding Evolution to Containers and Containers Orchestration
 
-![in28minutes slide image](other/images/cloud_managed_services/4_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1dtBVSbdZWz5upS1rSC-CfULXpaTESgWb)
 
-![in28minutes slide image](other/images/cloud_managed_services/5_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=12x37ktt_dbXWtunYvosEB86QvHrEOof7)
 
-![in28minutes slide image](other/images/cloud_managed_services/6_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Uo5gezFUbHF3NWYcG-j0z0JojfcQIfKK)
 
 ### Understanding Serverless
 
-![in28minutes slide image](other/images/cloud_managed_services/7_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1vXlKc1BktgLWPoIEct9WIiFSJmVQ1yCm)
 
-![in28minutes slide image](other/images/cloud_managed_services/8_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Siqv2mVH5ai--IAr4QwHYcJMUnvMeA-E)
 
 ### Exploring Google Cloud Platform GCP Compute Services
 
-![in28minutes slide image](other/images/cloud_managed_services/9_cloud_managed_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1qA0x2X1CrfYGFaQx1cGa8typNA_vo_PB)
 
 ## Getting Started with Google App Engine
 
-![in28minutes slide image](other/images/cloud_app_engine/1_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14oYYgq7LSqX1PHE5D1b2oYh8r1nCYolI)
 
-![in28minutes slide image](other/images/cloud_app_engine/2_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ZawOmpUlW1u2qZvKHavVTPBo8P5MUY1-)
 
 ### Understanding App Engine Environments - Standard & Flexible
 
-![in28minutes slide image](other/images/cloud_app_engine/3_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1a2pvjsFAaU2PsQrQi3cSXdTGBVVJiPRA)
 
 ### Understanding App Engine Components Hierarchy
 
-![in28minutes slide image](other/images/cloud_app_engine/4_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1A1h6rNoQUuXHr_xic2868duLrr7pqKf0)
 
 ### Comparing App Engine Environments - Standard vs Flexible
 
-![in28minutes slide image](other/images/cloud_app_engine/5_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1icOtQ7zH_VhBgF5N6qPMecPBGT2erpFN)
 
 ### Scaling Google App Engine Instances
 
-![in28minutes slide image](other/images/cloud_app_engine/6_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Aw8pxQzBY7hCZdciTafUF8787V5M8ka8)
 
 ### Playing with App Engine in GCP - Google Cloud Platform
 
 - Go to search bar > type 'App Engine' > click on 'Create application'
 
-    ![in28minutes demo image](other/images/cloud_app_engine/7_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1_L3aWUyVBgFh1AiOR0Hv6WVcANs0PJxD)
 
 - Select Region and click on 'Create app'
 
-    ![in28minutes demo image](other/images/cloud_app_engine/8_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1QNyqfFNd-3mTkAg4lTm3455YJYBQR5q3)
 
 - Select language and environment and click on 'Next'
 
-    ![in28minutes demo image](other/images/cloud_app_engine/9_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1NWKkcIPwSBabLIPhCbLyQmsHnzLUJEPA)
 
 - App engine app will be created successfully.
 
@@ -908,7 +908,7 @@ Readings:
 
 - For demo purpose, let's write simple Python flask program via inbuilt editor in cloud shell (focus only on code inside default-service directory for now).
 
-    ![in28minutes demo image](other/images/cloud_app_engine/10_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1dGKqZqj3wRONWIdndVshXr8AY0HwDeSR)
 
 - Inside `app.yaml`, you have application configuration required for App Engine. For instance, 'runtime' is one of the configuration which tells App Engine about the application environment.
 
@@ -918,15 +918,15 @@ Readings:
 
 - To deploy, use command, `gcloud app deploy`. Ensure, you are on the right project.
 
-    ![in28minutes demo image](other/images/cloud_app_engine/11_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1MF2VuS0tpZA7kM-a6coBqzrtWvM2uQOH)
 
-    ![in28minutes demo image](other/images/cloud_app_engine/12_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1iL4Sej_jiA1W4WkEWqKf6M9MjKvoROO0)
 
 - In this deployment, we didn't specify the service name, so it will be deployed as default service. Also, we didn't specify the default service for this specific deployment.
 
 - Once this deployment is successful, you can go to the URL at which your app is exposed and check if it is working fine.
 
-    ![in28minutes demo image](other/images/cloud_app_engine/13_cloud_app_engine.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1YnV_ObQrQWD64yXI2WV4eL9CZ7wAT2Zs)
 
 ### Exploring App Engine App, Services and Versions
 
@@ -934,29 +934,29 @@ Readings:
 
 In App Dashboards, you have can see metrics and summary.
 
-![in28minutes demo image](other/images/cloud_app_engine/14_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1H2ZLXU8gmr1b2jWb8ObaGuZn_Ya5l6tk)
 
 **Services**
 
-![in28minutes demo image](other/images/cloud_app_engine/15_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1ReldF0eR_6VB04dlAs099PFnEAQOYAE8)
 
 **Versions**
 
-![in28minutes demo image](other/images/cloud_app_engine/16_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1Ftnt3r4k-HSc27cfer4fcUdmL-69cA_A)
 
 You can also get above information using commands:
 
-![in28minutes demo image](other/images/cloud_app_engine/17_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1FQrayxfJ9rK3qBt0AmAbmlSx6pDI2ef1)
 
 Now, let's say you want to deploy another version of it. For that, you can do it like below:
 
-![in28minutes demo image](other/images/cloud_app_engine/18_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1iiKb-hgU4Yp9qMG9sgAmqiJQsR8YFyr_)
 
 During the next version deployment, your application will keep on running of current version. So, there will be no downtime. As soon as the next version is deployed. Traffic will be shifted to the new version.
 
 To find out the link of this version (or active version), you can use `gcloud app browse` command. However, to find out the link for specific version, just add `--version=<version>` flag.
 
-![in28minutes demo image](other/images/cloud_app_engine/19_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1VDEI1mIRAg_4TswqTQLVHyvC2L7KonXP)
 
 ### Splitting Traffic between Multiple Versions in App Engine
 
@@ -966,11 +966,11 @@ Let's suppose, currently our app is running on **v2** and now, we are updating i
 
 `--no-promote`, it will disable the transfer of all traffic to the newly deployed version.
 
-![in28minutes demo image](other/images/cloud_app_engine/20_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=13bnPfUAFkSvqMolfuDFNPkvcA76WMA_E)
 
 After verifying that everything is working fine. You can now shift or split the traffic between multiple versions.
 
-![in28minutes demo image](other/images/cloud_app_engine/21_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=160bA8UtOe254WM7MzPbyDZi0iTOBfuyV)
 
 Readings:
 
@@ -980,87 +980,87 @@ Readings:
 
 In addition to the default service, you can create the multiple services. In our example, we will create the new service whose code is inside `my-first-service`. We will deploy the same. After deploy, new service is created with it's first version.
 
-![in28minutes demo image](other/images/cloud_app_engine/22_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1rG-izTMtUCWy8e4-NeGl8XTO2CBpOo_A)
 
 If you check the services, you will find 2 services running.
 
-![in28minutes demo image](other/images/cloud_app_engine/23_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1wYks0JVAsWD6e3LkFpwTlWEZfd566kz9)
 
 To find the link for the new service's version, do like below:
 
-![in28minutes demo image](other/images/cloud_app_engine/24_cloud_app_engine.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1qOodEtqnVz-9nPSvqekwTAe_CiYDqUwB)
 
 Just add `--version` flag if you are looking for a specific version of that service.
 
 ### Understanding App Engine's app.yaml
 
-![in28minutes slide image](other/images/cloud_app_engine/25_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1gEdNqwcXVo92l6ipH5kBT0ggfLeIoyTa)
 
 ### Understanding Request Routing in Google App Engine
 
-![in28minutes slide image](other/images/cloud_app_engine/26_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1SfcQGRSvMon7gnhOBj0B0aqsuKcnPHL-)
 
 ### Deploying New App Engine Versions without Downtime in GCP
 
-![in28minutes slide image](other/images/cloud_app_engine/27_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=104QXkrO3gmhdF94oQsJhMeUFxs6WHtJB)
 
 ### Splitting Traffic between App Engine Version in GCP
 
-![in28minutes slide image](other/images/cloud_app_engine/28_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1MUzOBvakyFIL_ixHK9uBpjRLxUrHGH9a)
 
 ### Exploring App Engine and GCloud - GCloud App
 
-![in28minutes slide image](other/images/cloud_app_engine/29_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1tTLvSmdIWW472mLzeaOFj_5sZ3EKx1A_)
 
 ### Exploring App Engine and GCloud - GCloud App Instances
 
-![in28minutes slide image](other/images/cloud_app_engine/30_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xHu8e8x1N7uiE1WDpC7zExA3NTAVKZxq)
 
 ### Exploring App Engine and GCloud - GCloud App's Services & Versions
 
-![in28minutes slide image](other/images/cloud_app_engine/31_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14VCa4VoXcRFxHjzwlR30o5HV8orskDgi)
 
 ### Creating Cron Jobs in App Engine
 
-![in28minutes slide image](other/images/cloud_app_engine/32_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1wRjLpKiPtvio4IxepMAlj9SErUUIKiMM)
 
 ### Exploring App Engine YAML Files - dispatch and queue
 
-![in28minutes slide image](other/images/cloud_app_engine/33_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1zW4F0rrCQXsehxCzLjxmAMm7fILQ-WZT)
 
 ### Important Things to Remember - Google App Engine
 
-![in28minutes slide image](other/images/cloud_app_engine/34_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1oqghK0N6kRtASK21Q_R-GdZK7P4sIHv_)
 
 ### Scenarios - Google App Engine
 
-![in28minutes slide image](other/images/cloud_app_engine/35_cloud_app_engine.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11ifsk3gInK1vj6GVBXGymKl009vHMZQo)
 
 ## Getting Started with Google Kubernetes Engine
 
-![in28minutes slide image](other/images/cloud_gke/1_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1nrBYVojYHSla9IZDtj0wg9EYxomgFl_T)
 
-![in28minutes slide image](other/images/cloud_gke/2_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1_W7aN3ccYhUppbfqLcn34dF4u_HwUUtR)
 
 ### K8s Journey - Creating a GKE Cluster
 
 In search bar, type 'Kubernetes Engine' > Create Cluster
 
-![in28minutes demo image](other/images/cloud_gke/3_cloud_gke.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1rIaBTC1TmYDsbwsVGHCAfKZsXLIUrsom)
 
 You will 2 cluster modes
 
-![in28minutes demo image](other/images/cloud_gke/4_cloud_gke.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=13HCviSZ7sJDVUCk9yrrlhECMDsv4EF9r)
 
-![in28minutes slide image](other/images/cloud_gke/5_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1L-aA1SI_Ktq1FyaeJWf_YuonjMPXejUm)
 
 For now, click on the standard, provide the configurations and click on create.
 
 Now, once cluster is created successfully, connect to it and you can perform K8s related tasks using `kubectl` CLI.
 
-![in28minutes demo image](other/images/cloud_gke/6_cloud_gke.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1rUPg1aUeyWIqN0kiTf1c2q7L5EOmwuv8)
 
-![in28minutes slide image](other/images/cloud_gke/7_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1vII6ZojFiCKv37twwkhC2LNaFIfX9ojo)
 
 Readings:
 
@@ -1070,35 +1070,35 @@ Readings:
 
 ### Understanding Kubernetes Clusters - Google Kubernetes Engine
 
-![in28minutes slide image](other/images/cloud_gke/8_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1P2pbpBXviEGB12_ZPV5MQv1_503yKrKs)
 
-![in28minutes slide image](other/images/cloud_gke/9_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1_ukgJsp2MSl0HxiWR0la3rmgSEKrr8Pm)
 
 ### Getting Started with Google Container Registry(GCR)
 
-![in28minutes slide image](other/images/cloud_gke/10_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1JnlPBKvuQ5YNdxOpBBpgNdehXau21BJ_)
 
 ### Important Things to Remember - GKE
 
-![in28minutes slide image](other/images/cloud_gke/11_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1czoUFmedUlf8WKFFEEyyhbHOMluZG3_c)
 
 ### Scenarios - GKE
 
-![in28minutes slide image](other/images/cloud_gke/12_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=122_XzKXG_SABbUXvsUIgoBbfGRBT47w4)
 
-![in28minutes slide image](other/images/cloud_gke/13_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1aBJIYdFH7t8Dx3beC4DUGgxcH1ztisNv)
 
 ### Quick Review - Command Line - gcloud container clusters
 
-![in28minutes slide image](other/images/cloud_gke/14_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1akq0lK_lnbPb4bF_PS46S7JLqJ_WVaJe)
 
 ### Quick Review of GKE & K8s
 
-![in28minutes slide image](other/images/cloud_gke/15_cloud_gke.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1JZZ_h9Y3pDXYcqqqXyOqG91Q9vdCExmr)
 
 ## Getting Started with Google Cloud Functions
 
-![in28minutes slide image](other/images/cloud_functions/1_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1KUy3cL_b00S6IF-JOZ68TBB5NcL9Pshs)
 
 Readings:
 
@@ -1106,9 +1106,9 @@ Readings:
 
 ### Cloud Functions - Important Concepts
 
-![in28minutes slide image](other/images/cloud_functions/2_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11slH4w9NkQIJiszfDjo6kNLfD8L1BF4b)
 
-![in28minutes slide image](other/images/cloud_functions/3_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=19_g-BIXyjbOwEPBlk6Jv5bM6nts831jq)
 
 ### Demo - Creating Cloud Functions
 
@@ -1118,17 +1118,17 @@ Readings:
 
 ## Getting Started with Google Cloud Run
 
-![in28minutes slide image](other/images/cloud_run/1_cloud_run.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1U6L11tTofwkl2xVnyooqWQZzs1-WH1B-)
 
-![Google Developers slide image](other/images/cloud_run/2_cloud_run.png)
+![Google Developers slide image](https://drive.google.com/uc?export=view&id=1mIWNz2HiAyBEhbRkVOFrGMpjrb_TEikT)
 
-![Google Developers slide image](other/images/cloud_run/3_cloud_run.png)
+![Google Developers slide image](https://drive.google.com/uc?export=view&id=1nqY4aB-_uGuXWf0qgSdItGA0QJtMF5vN)
 
-![Google Developers slide image](other/images/cloud_run/4_cloud_run.png)
+![Google Developers slide image](https://drive.google.com/uc?export=view&id=1MLEkt6heEjRkH-0QdPudZ0nE4w1QX--P)
 
-![Google Developers slide image](other/images/cloud_run/5_cloud_run.png)
+![Google Developers slide image](https://drive.google.com/uc?export=view&id=1I0XsezcS8WsdTIstawSi07TqKXUcD0UR)
 
-![in28minutes slide image](other/images/cloud_run/6_cloud_run.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1V4r4Xxx51mOKEG12RNgE4ezIukIiAYcU)
 
 Readings:
 
@@ -1138,7 +1138,7 @@ Readings:
 
 ## Exploring Google Cloud Functions Gen 2
 
-![in28minutes slide image](other/images/cloud_functions/4_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1giFXP4VEPDTOGA_AF_LqBQ9IAVoNGTzc)
 
 Readings:
 
@@ -1148,31 +1148,31 @@ Readings:
 
 ### Exploring Cloud Functions - Scaling and Concurrency
 
-![in28minutes slide image](other/images/cloud_functions/5_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14FsCCeK8eg2Nj2RpS3forEF64nzVYvro)
 
 ### Quick Overview of deploying Cloud Functions with GCloud
 
-![in28minutes slide image](other/images/cloud_functions/6_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1G7zKwytzoRGfv1GRVhnJo8ylkCJWCxUP)
 
-![in28minutes slide image](other/images/cloud_functions/7_cloud_functions.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ilj2Aq6Jv0BHywDlD2PJwabo_0DflX14)
 
 ## Encryption in Google Cloud with Cloud KMS
 
 ### Understanding Data States
 
-![in28minutes slide image](other/images/cloud_kms/1_cloud_kms.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1XUObZx5KGQTw9jsCe6DTpaOlL297UFcU)
 
 ### Understanding Encryption - Symmetric and Asymmetric
 
-![in28minutes slide image](other/images/cloud_kms/2_cloud_kms.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1jPwj7VWn8py_lyyz2TE-T-Te5pDfkdHi)
 
-![in28minutes slide image](other/images/cloud_kms/3_cloud_kms.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1pwSIsx_azBf4NnA8r1MRkono0zyhb6cp)
 
-![in28minutes slide image](other/images/cloud_kms/4_cloud_kms.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=19hNua019mc6GzKiv2mohmDXvlUYdwVPo)
 
 ### Getting Started with Cloud KMS
 
-![in28minutes slide image](other/images/cloud_kms/5_cloud_kms.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14HUjvDaQiz3NbCgaORUidUnlLbvOPCrZ)
 
 Readings:
 
@@ -1182,13 +1182,13 @@ Readings:
 
 ### Exploring Block and File Storage in GCP
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/1_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1AoLIsjMYNy1mRugRCGh_ikGKOxeLcdJw)
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/2_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1mWlR77vw8agX_Nw1N1z4WsXqgQbhnYWW)
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/3_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1OF-Qm6aEotKGkN7FMHCzi6EGt0ANX8Pq)
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/4_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ANKhT1ZeN6j9KIzHx2jBKM-vingKb4aW)
 
 Let's quickly see where you can actually look at these options.
 
@@ -1196,11 +1196,11 @@ So, when we create a virtual machine, that's when you can attach block storage d
 
 During creation of VM, if you go to the boot disk, you will see a persistent disk is attached from where your operating system is loaded and whenever we create a virtual machine, a boot disk is automatically attached with the virtual machine. So by default, a persistent disk called a boot disk is attached with your VM.
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/5_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1n21mHQUVkZNjzbav-ZPSqIRBqhlzWMLc)
 
 If you'd want to have additional persistent disks attached, then go to Disks > Add New Disk
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/6_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1V6rjSKQyNjeOg9-qkpeIjZSaXzbMZZKd)
 
 > Remember, Local SSD is available with selected machine types
 
@@ -1212,29 +1212,29 @@ Readings:
 
 ### Exploring Block Storage in GCP - Local SSDs
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/7_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ErVlTDMSpQ62iQ7PXKxk85i0O69KhIGP)
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/8_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1TWveTAcxg7wacD5oIqr6oqnADUMaZ4F-)
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/9_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1GawcDKFsEflqsrOFB-BQX4gkX0NCV12k)
 
 ### Exploring Block Storage in GCP - Persistent Disks
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/10_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1QocI8zjzlGQVd7aqPf4m_ioU0Jz2TjWP)
 
 ### Comparing Persistent Disks vs Local SSDs
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/11_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1VlpBCZlC6YpgD3TKBkb6SARFMKxBi938)
 
 ### Exploring Persistent Disks Types
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/12_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1BgTdwPr1Hy-zlkBCs6cncc1Z6Pt96owx)
 
 ### Taking Snapshots for Persistent Disks
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/13_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xB5U8JWQs29JixNC01e4cSZxdIkXK3BA)
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/14_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1g5stACJw_p4AgyzcmHvazXEjGoA1g3ic)
 
 Readings:
 
@@ -1248,75 +1248,75 @@ We know that boot disk of persistent disks. However, if you delete your VM, the 
 
 Go to Boot Disk > Change > Show Advanced Configuration > Deletion Rule > Keep Boot Disk
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/15_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1lRRWzIHz098znD___M2lHazwBtgGpLrg)
 
 *In a existing VM*
 
 Go to you instance > Edit > Under Storage (Boot Disk) section > Deletion Rule > Keep Disk
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/16_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1yevGZJKcXWGfaok3VNGNCR4giKH2Ljew)
 
 **Creating Snapshot**
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/17_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1mvCdcWAuP1aU8CjqXT3TKA5gteNzCRKW)
 
 Once your snapshot is created, you can create an VM instance using it. But remember that snapshots must be created from a boot disk.
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/18_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1fZMhB5h_AX4SdS39d-whCC8KnylN9peg)
 
 You can also create a disk using snapshot.
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/19_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1IkhBn7pteLGo2lawrpxmPxAdwMYwP1KF)
 
 **Scheduling Snapshots**
 
 Snapshot schedule is not really linked to a disk. It's a general schedule. Once created, you need to explicitly assigned it to a disk.
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/20_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1ARizviNp4fPx-y3s2XN7EgGoen_78UB3)
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/21_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1UVTEgeZUU_KOyfjZim94Cpa4p8wpigy4)
 
 Assigning snapshot schedule to a disk.
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/22_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1azwHWXUPjX862lEdFQ1L6gwYpd0IyQQA)
 
 ### Playing with machine images
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/23_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1KBz86UYFRdMFhkTVfxCiR3WWGEcGFOP0)
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/24_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1hUWX8MYFXXErXnp4Q7v-Scmx-MohUPAz)
 
 After creating a machine image, instance can be created based on it.
 
-![in28minutes demo image](other/images/cloud_block_and_file_storage/25_cloud_block_and_file_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1oOUhjUqUDVbYh9PRCmlVCaVt2L7_uYTc)
 
 ### Comparing Snapshots vs Images vs Machine Images
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/26_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11d7W--AxDd8NOW3eAfmxRGRVcLcWHh__)
 
 ### Playing with Disks - GCloud
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/27_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1jp9x3Fj-Au3sJBxMwmacFOzHOMBHaj1v)
 
 ### Playing with Images - GCloud
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/28_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1C4ECYM-7en0n1Iuid91Pg61U19VkJNiq)
 
 ### Scenarios - Persistent Disks
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/29_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1dkEcUjdSNMKhRjCjjWGqJ6op7vKDZReX)
 
 ### Exploring File Storage with FileStore
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/30_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1lNFUXjqc8-RsFl4rNMNwWLR1CNjmxGzf)
 
 ### Exploring Global, Regional and Zonal Resources
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/31_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1dIKfddLRAj8kkNrVVOXZ-S0X8mU0t7Xg)
 
 ### Scenarios - Block and File Storage
 
-![in28minutes slide image](other/images/cloud_block_and_file_storage/32_cloud_block_and_file_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1pKV5HZGniLf8RwsUyR0mC4StoWfwq607)
 
 ## Object Storage in GCP - Cloud Storage
 
@@ -1326,19 +1326,19 @@ To get an idea about object and cloud storage, we'll start with demo.
 
 Go to search > type Cloud Storage and you might see few buckets like below. Bucket is kind of a container for all the objects that you would want to place in cloud storage. We will talk about it in lengths later.
 
-![in28minutes demo image](other/images/cloud_storage/1_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=14YDWlzhXw0yUAmaQYox-KdkHED7pH2iq)
 
 Let's create a new bucket. For that, click on 'Create Bucket'. Now you have to provide bucket name which must be unique globally. 
 
-![in28minutes demo image](other/images/cloud_storage/2_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1CEPohAYgJ8bFGoA7Fed0LSQAOB19GgDw)
 
 Next, chose where to store data.
 
-![in28minutes demo image](other/images/cloud_storage/3_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1iKKpVwU2nnVF3TUbnWBTp-0VVvM1DuXP)
 
 Now choose default storage class
 
-![in28minutes demo image](other/images/cloud_storage/4_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=13fkg8eMthB7KRGvnqqjypjocNGfNNNkj)
 
 Let's keep other options with default values.
 
@@ -1348,21 +1348,21 @@ Once bucket is created, you may go ahead and store your data in it.
 
 ### Exploring Cloud Storage in GCP
 
-![in28minutes slide image](other/images/cloud_storage/5_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=10ONyZVfOs_ikvgWrT47y59DycCxJ2tLz)
 
 In bucket, objects are stored in key-value pair.
 
-![in28minutes demo image](other/images/cloud_storage/6_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1VXGfpqmMdhCUxk28PZoCFnA1kbVFyNwH)
 
 In below image, '2030/10/course1.png' is the key and value is the content of course1.png image.
 
-![in28minutes demo image](other/images/cloud_storage/7_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1g--yahHr4vBtTnsgiidyhkc4KKkgrisQ)
 
 Whenever we are storing files, we will not be updating files bit by bit. So, whenever we want to change any file, we will create a new image and then upload the entire image as such. So, we would be treating the entire object as a single unit. We'll not do partial updates.
 
 ### Understanding Cloud Storage - Objects and Buckets
 
-![in28minutes slide image](other/images/cloud_storage/8_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1TIYp_nmOPi8xBr9Ae_1pmy1YqmTc8biy)
 
 Readings:
 
@@ -1370,59 +1370,59 @@ Readings:
 
 ### Understanding Cloud Storage - Storage Classes
 
-![in28minutes slide image](other/images/cloud_storage/9_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ilVjYRw7mDAZ1iSJEpidKWohI8n-GCQd)
 
-![in28minutes slide image](other/images/cloud_storage/10_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1LkVMLiyUCZkCvdQgbB9cYA0EY78rav_O)
 
 > Storage classes can also be defined at object level. So, in the same bucket, you can have different objects with different storage classes.
 
-![in28minutes slide image](other/images/cloud_storage/11_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1fHKk4JfN3DyAkpGgEK_bL8e-DynFGMM1)
 
-![in28minutes slide image](other/images/cloud_storage/12_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1rXze5-Bbf-diVjU9m4V0BhOg6iUnigvZ)
 
 ### Understanding Cloud Storage - Uploading and Downloading Options
 
-![in28minutes slide image](other/images/cloud_storage/13_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14RH1MRnjITDYEXjnY1QXimGTZ6L5VcsE)
 
 ### Understanding Cloud Storage - Versioning
 
-![in28minutes slide image](other/images/cloud_storage/14_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Xp4lcjSLnPDMx05IF0Y7RmLvxuO10jJ3)
 
 ### Understanding Cloud Storage - Lifecycle Management
 
-![in28minutes slide image](other/images/cloud_storage/15_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1aj7o54cd0F8pI6WDJG6Og8Z2vMGixSUP)
 
-![in28minutes slide image](other/images/cloud_storage/16_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1XHjRQem7tqFtYjJHNi6sgLTiSUAnkPDt)
 
 To configure the lifecycle for your bucket, go to 'Lifecycle' tab and then 'Add a rule'
 
-![in28minutes demo image](other/images/cloud_storage/17_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1xrHvCt1zN3A33Yb7LW74p4MM8t0_Lgdn)
 
-![in28minutes demo image](other/images/cloud_storage/18_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=181IV4QM4K5C0G6jHP_Wf3JaCVcJLrcFY)
 
-![in28minutes demo image](other/images/cloud_storage/19_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1i-B_Ca-eOU3-3aDpuXkWlGjR60keYOZk)
 
 ### Understanding Cloud Storage - Encryption with KMS
 
-![in28minutes slide image](other/images/cloud_storage/20_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1D9p5-El_hu73_ZAEI9yzlQnaZhTR_hH5)
 
 To configure server side encryption, go to 'Configuration' tab of your bucket and click on 'Encryption Type'.
 
-![in28minutes demo image](other/images/cloud_storage/21_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1gjPdLD2_XcQVe_IyK8sZ3GkEWNKRbFlv)
 
 You can also add encryption at the time of creating bucket in 'Advanced Setting' section.
 
-![in28minutes demo image](other/images/cloud_storage/22_cloud_storage.png)
+![in28minutes demo image](https://drive.google.com/uc?export=view&id=1du_i2Z4HDBShxBQrZk_JJ4uSJQH7yhvN)
 
 ### Scenarios - Cloud Storage
 
-![in28minutes slide image](other/images/cloud_storage/23_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1mb80M_HYmPW1XXx3EusFHbcr_qXUWbHD)
 
 ### Playing with gsutil - Cloud Storage from Command Line
 
-![in28minutes slide image](other/images/cloud_storage/24_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Nm5PomliiMxHVwg7GOJJ2YYyGTIaRMv8)
 
-![in28minutes slide image](other/images/cloud_storage/25_cloud_storage.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1dSnPsTwEoiX7jk4xMs1wREy_BJ8v4qjw)
 
 ## Authentication & Authorization in Google Could with Cloud IAM
 
@@ -1538,19 +1538,19 @@ Readings:
 
 Let's play with roles. For that, type roles in search bar and press enter. You will be presented with varieties of roles available in GCP. Let's see one role of each category.
 
-![cloud iam - personal](other/images/cloud_iam/1_cloud_iam.png)
+![cloud iam - personal](https://drive.google.com/uc?export=view&id=1ghptb88Ql5DcJWu50xpxIsVTBiK1Tnvo)
 
 **1. Basic Roles**
 
 In filter, type ```Name:roles/viewer``` and you will see more than 2000 permissions are associated with this role. Analyze all such permissions associated with it.
 
-![cloud iam - personal](other/images/cloud_iam/2_cloud_iam.png)
+![cloud iam - personal](https://drive.google.com/uc?export=view&id=1XLJOLCsSuXMna0TRMBV9j-ohHP1cOQRF)
 
 **2. Predefined Roles**
 
 In filter, type ```Storage Admin Object``` and you will see more than 10 permissions are associated with this role. Analyze all such permissions associated with it.
 
-![cloud iam - personal](other/images/cloud_iam/3_cloud_iam.png)
+![cloud iam - personal](https://drive.google.com/uc?export=view&id=1fXYsxtRvYXXMW_rIKL9cd7MSUKOATCnw)
 
 **3. Custom Roles**
 
@@ -1558,11 +1558,11 @@ Follow [this link](https://docs.cloudera.com/cdp-private-cloud-base/7.1.3/cloud-
 
 ### Exploring Cloud IAM - Members, Role and Policy
 
-![in28minutes slide image](other/images/cloud_iam/4_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1SCISZSISvZQgdYenqK3qnhQ27yzUvByO)
 
-![in28minutes slide image](other/images/cloud_iam/5_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1UZ-yLCSuvegw21wg58C3akgj155DE1CO)
 
-![in28minutes slide image](other/images/cloud_iam/6_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=18cuIiKBar_pXS5LHzKFdw6E7QbNtaGvG)
 
 ### Demo - Playing with IAM (DIY)
 
@@ -1578,11 +1578,11 @@ Below things are covered in this demo:
 
 Below are few important commands used to perform IAM related tasks:
 
-![in28minutes slide image](other/images/cloud_iam/7_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1VY7A-_gJXy9UPsaeAUMF7SUUeGRe0IXD)
 
 ### Getting started with Service Accounts
 
-![in28minutes slide image](other/images/cloud_iam/8_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1DGu_tCWGA5QCvd-lpJY6PY_FKDkzwuKv)
 
 Readings:
 
@@ -1604,27 +1604,27 @@ An application is running on VM and we want to give this VM access to create clo
 
 **Use Case 1 - VM using Cloud Storage**
 
-![in28minutes slide image](other/images/cloud_iam/9_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ZSpmfT7us3eBI2RjED_Up82pVty4ksUB)
 
 **Use Case 2 - Connect on premises machine to cloud storage**
 
 Until now, we have been talking about resources which are present in Google Cloud. Now, let's suppose there is a server present outside GCP.
 
-![in28minutes slide image](other/images/cloud_iam/10_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1vDy0BiWXtj5hIgWS0_LrcoiSmHE8sd6x)
 
 **Use Case 3 - Connect on premises machine to cloud storage but for few hours**
 
-![in28minutes slide image](other/images/cloud_iam/11_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Dc8VSUGqPHclGrTyMRAcJ5ubYhFJOwJM)
 
 ### Scenarios - Service Accounts
 
-![in28minutes slide image](other/images/cloud_iam/12_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11NKGyfdltR2KUntIdCmt2uPmvt-1MCHY)
 
 ### ACL(Access Control Lists) - Part of Cloud Storage
 
-![in28minutes slide image](other/images/cloud_iam/13_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1L96tUiDtcr5kivWg9Uni8yse484FN8KM)
 
-![in28minutes slide image](other/images/cloud_iam/14_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14JL3c-63eskJEf7cBw4k6Sfj07Myu34g)
 
 Readings:
 
@@ -1632,7 +1632,7 @@ Readings:
 
 ### Signed URLs - Part of Cloud Storage
 
-![in28minutes slide image](other/images/cloud_iam/15_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1wjW7xtp_uQxYz14uCQdrY3CmkoOZSTwy)
 
 Readings:
 
@@ -1642,7 +1642,7 @@ Readings:
 
 Suppose, you want to expose buckets, let's say, in a public website, then below are the steps to do so:
 
-![in28minutes slide image](other/images/cloud_iam/16_cloud_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1FJN37hOR0Do6FEQRADwZm2YVnHKJls3S)
 
 Readings:
 
@@ -1650,17 +1650,17 @@ Readings:
 
 ## Choosing Database in GCP
 
-![in28minutes slide image](other/images/cloud_database/1_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1dVBA2YDD9xc6c8JVB7PYZM0XiEuQ2TOJ)
 
 ### Understanding Database Fundamentals - Snapshot, Standby etc
 
-![in28minutes slide image](other/images/cloud_database/2_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1qJEWFrfYN6opIKInzaHFAYqvYs2p0v92)
 
-![in28minutes slide image](other/images/cloud_database/3_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1eUNbDbV31_QGV745BAwBF-VSs4Pq4kyH)
 
-![in28minutes slide image](other/images/cloud_database/4_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1kep6c6Vfi3f74vsY9_o0KqDzHqnavkHL)
 
-![in28minutes slide image](other/images/cloud_database/5_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1NUR4q8pbAEtM_sQNvqNUlbPnxobS04fi)
 
 Readings:
 
@@ -1668,53 +1668,53 @@ Readings:
 
 ### Understanding Database Fundamentals - Availability and Durability
 
-![in28minutes slide image](other/images/cloud_database/6_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=197K_Az3-Z1ZoelzDtgh0a4AWMnOsTSaS)
 
-![in28minutes slide image](other/images/cloud_database/7_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1qF4sF7czzpF3_82QDqLEvu-rruCyxRzC)
 
-![in28minutes slide image](other/images/cloud_database/8_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1T1OE9FRResud6vxkDP6GnszGdopjwayU)
 
-![in28minutes slide image](other/images/cloud_database/9_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1WNXyUgLE0nSQ0DFBbvU3sjYTh4b0Dps_)
 
 ### Understanding Database Fundamentals - RTO and RPO
 
-![in28minutes slide image](other/images/cloud_database/10_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1lr76uuy_t1qxN4RqRHDZI_XjbibI8Wlz)
 
-![in28minutes slide image](other/images/cloud_database/11_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=12Oej_hupfAtEWcWRBqUAusCfdvJ7C3ns)
 
-![in28minutes slide image](other/images/cloud_database/12_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1dBIWuBQDswhFXDmElXrHYBTpui4x_1aK)
 
 ### Understanding Database Fundamentals - Read Replicas
 
-![in28minutes slide image](other/images/cloud_database/13_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=15IVDSaknHLFnDsMNSTmFcioN2t8v49sU)
 
-![in28minutes slide image](other/images/cloud_database/14_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Ce5Npg4lFB3dqmNXddxx6bmMhQt6elQv)
 
 ### Understanding Database Fundamentals - Data Consistency
 
-![in28minutes slide image](other/images/cloud_database/15_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1aafEqJcyBQQcNHKAds3lInD9cEwtvB05)
 
 ### Understanding Database Fundamentals - Choosing Databases
 
-![in28minutes slide image](other/images/cloud_database/16_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1w8B_9wC5UoZv8hnVJhVWgsSsENIpBHuO)
 
-![in28minutes slide image](other/images/cloud_database/17_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1tbfffJF-NB-gXjBJatmpdfMHiyvhI3zc)
 
 ### OLTP Relational Databases in Google Cloud - Cloud SQL and Cloud Spanner
 
-![in28minutes slide image](other/images/cloud_database/18_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1J2ixTHXkSnQQcy04M-S6j7mDu_3kCPng)
 
 ### OLAP Relational Databases in Google Cloud - BigQuery
 
-![in28minutes slide image](other/images/cloud_database/19_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1LsbJxZ20CfCT0n8CJDpUTfZN7QQ0ikoL)
 
-![in28minutes slide image](other/images/cloud_database/20_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1sNVm2KrDSBBkDoVHbIAQ5f1Gf1m4C5xP)
 
 ### NoSQL Databases in Google Cloud - Firestone, Datastore and BigTable
 
-![in28minutes slide image](other/images/cloud_database/21_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Bk91sFiYWPPpjN0Sy9T55tORzIrvUsdL)
 
-![in28minutes slide image](other/images/cloud_database/22_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1u6VR8Iu41Ah3Ap6D5fCVkccz8Pc9f7cg)
 
 Readings:
 
@@ -1722,41 +1722,41 @@ Readings:
 
 ### In Memory Database in Google Cloud - Memorystore
 
-![in28minutes slide image](other/images/cloud_database/23_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1YFqPsVbWPqHmStTiZbGVSVmxC-TLB_65)
 
 ### Databases in Google Cloud Platform - A Quick Review
 
-![in28minutes slide image](other/images/cloud_database/24_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1og7h0JhPAenA-xKJT0HXQKxLfg0ghqLp)
 
 ### Databases in Google Cloud Platform - Scenarios
 
-![in28minutes slide image](other/images/cloud_database/25_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1HRXT6iWucLRaZnhKoTW4C67fiaYNqFca)
 
 ## Exploring Databases in Google Cloud Platform
 
 ### Getting Started with Cloud SQL
 
-![in28minutes slide image](other/images/cloud_database/26_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Ui8aPYGIJY46qG0No1JKuMUmYs10h38b)
 
 ### Demo - Playing with CloudSQL
 
 - To begin with Cloud SQL, in search bar, type Cloud SQL and select SQL
 
-    ![in28minutes demo image](other/images/cloud_database/27_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1wtGOqzkHenGguSvv3Vk82qrQ2_daNY4q)
 
 - Click on create instance, select the database provider, configure it and create the instance.
 
-    ![in28minutes demo image](other/images/cloud_database/28_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1MMu-7Wp6ShlnbDwYEjIN9S2OStfeSqwH)
 
 - Once your instance is up, create the database.
 
-    ![in28minutes demo image](other/images/cloud_database/29_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1Hg_keRJQkCMgT580tA0wC6FtkXycRInd)
 
 - To interact with database (performing database related operations like creating tables etc), go to Overview > Connect using Cloud Shell
 
-    ![in28minutes demo image](other/images/cloud_database/30_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1PVzR7DM-8YOfJBSYyrnJ5WTnLvP_snPZ)
 
-    ![in28minutes demo image](other/images/cloud_database/31_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1CTZCNM6rW_QgSLvaIYsHBVipTlrlzQnm)
 
 - Once connected to your database, you can perform your db related tasks.
 
@@ -1776,31 +1776,31 @@ select * from user;
 
 ### Understanding CloudSQL Features
 
-![in28minutes slide image](other/images/cloud_database/32_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1kf-Uji3KIMyboEJcRjSyxy92cu-ThPRQ)
 
-![in28minutes slide image](other/images/cloud_database/33_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1YzGuwBHJeZFEH8bRlamOxVbm37MJkptT)
 
 ### Getting Started with Cloud Spanner
 
-![in28minutes slide image](other/images/cloud_database/34_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1pghji2xDZECV-W_B8ify2gERQ102jIjS)
 
 ### Demo - Playing with Cloud Spanner
 
 - Search Bar > Cloud Spanner > Create Instance
 
-    ![in28minutes demo image](other/images/cloud_database/35_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1weRB4Ls7Ex4c6crJN9MDXwlJCyTlIUye)
 
 - Configure it as per your requirements.
 
-    ![in28minutes demo image](other/images/cloud_database/36_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=16-iILfYOxaEYcAdJL460ol_oahaFXSbg)
 
 - In 'Allocate Compute Capacity', you can either choose 'node' or 'processing unit' (it is introduced recently).
 
 - Once cloud spanner instance is created, proceed with the database and table creation.
 
-    ![in28minutes demo image](other/images/cloud_database/37_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1J0HJQluaN5m3nEIDgiiiK_8jTIQRzp5t)
 
-    ![in28minutes demo image](other/images/cloud_database/38_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1RH1qAqAQuK0Bgjde0F6DCD3cGnHVoH_r)
 
     ```
     # Cloud Spanner
@@ -1812,79 +1812,79 @@ select * from user;
 
 ### Getting Started with Cloud Datastore and Cloud Firestore
 
-![in28minutes slide image](other/images/cloud_database/39_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11--dFiSiyCpHgqxZGF0JEA8ccPIbqQU1)
 
 ### Demo - Playing with Firestore
 
 - Search Bar > Firestore > Select desired mode. Cloud Firestore is the next generation of cloud Datastore. So, if you're creating new projects then the recommendation is to go for Native mode. However, if you have old Datastore projects that you are moving over to Firestore then the recommendation is to go with Datastore mode. ***Remember, once you choose the mode, it will be permanent for your project.***
 
-    ![in28minutes demo image](other/images/cloud_database/40_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1Zr7VFyT6HcJzI2aZAhr5RTTvxDE1X8X7)
 
 - Once mode is chosen, select the location, which can be regional or multi-regional.
 
 - After doing all above and click on 'create database' to create the database.
 
-    ![in28minutes demo image](other/images/cloud_database/41_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1QglIysrGkeZyypcmZTHTHeyjz79XjesD)
 
 - Now, to add data into the database, click on 'start collection'. A collection is a set of one or more documents that contain data. It is similar to tables in relational database. Once collection is created, to store data, you have to create document under which you can define your fields.
 
-    ![in28minutes demo image](other/images/cloud_database/42_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1uz1wEHNkg39DVXExZMyCAnm4Xho3UY5O)
 
 - One of the important things to remember about Datastore or Firestore is the fact that it is hierarchical. It means inside a document, you can add another collection.
 
 ### Getting Started with Cloud BigTable
 
-![in28minutes slide image](other/images/cloud_database/43_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11jzmDFugtNotDM35r4f0eZ875XVp6GmV)
 
-![in28minutes slide image](other/images/cloud_database/44_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1B7K93zuUSFofHm1gQtFUS7hIwCFSWRwQ)
 
 ### Getting Started with Memorystore
 
-![in28minutes slide image](other/images/cloud_database/45_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1sdfyxGrvBkeXsF7Aeh5VuFh6i98r1UPN)
 
 ### Demo - Playing with Memorystore
 
 - Search Bar > Memorystore > Create Instance (for redis or memcached, based on your requirements)
 
-    ![in28minutes demo image](other/images/cloud_database/46_cloud_database.png)
+    ![in28minutes demo image](https://drive.google.com/uc?export=view&id=1VB6FdGuGpUyAXHc7iCFOHfhM9x90cl4v)
 
 - Provide configuration details and click on create.
 
 ### Getting Started with BigQuery
 
-![in28minutes slide image](other/images/cloud_database/47_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1kQzwVxtjyYC507rjplWpi6jOlqpnxlRm)
 
-![in28minutes slide image](other/images/cloud_database/48_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1zJPqClKvmP4JmhaIXvU-A2ehBO2Wm7Rb)
 
 ### Playing with Cloud SQL, BigQuery and Big Table from Command Line
 
-![in28minutes slide image](other/images/cloud_database/49_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Rhz6kdP4mk-WY2Jymyhn-DjuzVmnJ9Jb)
 
-![in28minutes slide image](other/images/cloud_database/50_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14_iPob-UbOitnRogeBNSWZPZKrHVZ0dL)
 
-![in28minutes slide image](other/images/cloud_database/51_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Lzd1cOpGIaclGjl84HRTH3u-dcxikOtH)
 
 ### Importing and Exporting Relational Databases
 
 Whenever you look at any of the import or export scenarios in Google Cloud platform, you would see that typically cloud storage is involved. Whenever you'd want to move data from somewhere to somewhere, you would first move it to cloud storage and then move it to the destination and that's the reason why you would see that most of these services support export to and from cloud storage.
 
-![in28minutes slide image](other/images/cloud_database/52_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1A786Cccw3zvy_A_LbyuPMQfdvuysulpg)
 
 ### Importing and Exporting NoSQL Databases
 
-![in28minutes slide image](other/images/cloud_database/53_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1s7bed5OgKd-z9LQkDJgr_ClkV98ExAo2)
 
 ### Databases in Google Cloud Platform - Summary
 
-![in28minutes slide image](other/images/cloud_database/54_cloud_database.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1QVhDZGjntUXTuxk_Ta7Q7ICZd_GA4JfO)
 
 ## Asynchronous Communication in Google Cloud with Cloud Pub Sub
 
 ### Understanding the need for Asynchronous Communication
 
-![in28minutes slide image](other/images/cloud_pub_sub/1_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1RfkyYH6z9jtAZdXC45RkakRK0XiStz1q)
 
-![in28minutes slide image](other/images/cloud_pub_sub/2_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1TM119xS8rNh9xfn0vFr8_fGo_bdYo3h8)
 
 Readings:
 
@@ -1893,9 +1893,9 @@ Readings:
 
 ### Getting Started with Cloud Pub Sub
 
-![in28minutes slide image](other/images/cloud_pub_sub/3_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1AgHJkvdmxb5JtEChZYIAW6lkIDe4EGyo)
 
-![in28minutes slide image](other/images/cloud_pub_sub/4_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1TbD90kqhchaffUlLqpiZ7nuJucGmfTuv)
 
 Readings:
 
@@ -1904,15 +1904,15 @@ Readings:
 
 ### Exploring Cloud Pub Sub - Publishing and Consuming a Message
 
-![in28minutes slide image](other/images/cloud_pub_sub/5_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1KJpDgxUX2b1no_edmCUExU9RRt_8DH6C)
 
-![in28minutes slide image](other/images/cloud_pub_sub/6_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=16Eyzxwfd3ugyc-EC4a2HmN0AwexaSt5N)
 
 ### Demo - Playing with Pub/Sub
 
 **[Pub/Sub Demo](https://www.youtube.com/watch?v=f5DOsB7Nlw0&list=PLIivdWyY5sqKwVLe4BLJ-vlh9r9zCdOse&index=3)**
 
-![in28minutes slide image](other/images/cloud_pub_sub/7_cloud_pub_sub.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1RlZ1gS8hCphjOlWT2D_wKBpdji_ou9Ju)
 
 ***Few Commands for Reference***
 
@@ -1940,9 +1940,9 @@ Readings:
 
 ### Understanding the need for Google Cloud VPC - Virtual Private Cloud
 
-![in28minutes slide image](other/images/cloud_vpc/1_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1QEL1_4X2qFyZCeHdT4gROGEGDLbIv4x8)
 
-![in28minutes slide image](other/images/cloud_vpc/2_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Y5Z0LnJvDIJ6md0QeaExdB_Dq2t5nb0f)
 
 Readings:
 
@@ -1950,9 +1950,9 @@ Readings:
 
 ### Understanding the need for VPC subnets
 
-![in28minutes slide image](other/images/cloud_vpc/3_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1RmCTgGP7tY3tsoxaVDyYPgQ3QnTOq2Kt)
 
-![in28minutes slide image](other/images/cloud_vpc/4_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1OOwBr-JjnhF1ooz5fMfLhWeXrGdE254J)
 
 Readings:
 
@@ -1961,11 +1961,11 @@ Readings:
 
 ### Creating VPCs and Subnets in GCP
 
-![in28minutes slide image](other/images/cloud_vpc/5_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1JDKYncknJP49Sn0PMYlsoRj2D6QlUGY1)
 
-![in28minutes slide image](other/images/cloud_vpc/6_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1kg0UAN7fA3Yj27gIvvvBuSoQ-YISlpJZ)
 
-![in28minutes slide image](other/images/cloud_vpc/7_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1oK2QunuqhvVlcgAgH6hEn0mmQVMT3ivM)
 
 Follow below links to see the creation of VPCs in GCP
 
@@ -1978,25 +1978,25 @@ Readings:
 
 ### Understanding Firewall Rules in GCP
 
-![in28minutes slide image](other/images/cloud_vpc/8_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1gbPKbuivgql40BUJ7z3e_BRgdxjS-ehz)
 
-![in28minutes slide image](other/images/cloud_vpc/9_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1mxDdYlHf3jGuN-GPCrL_fh83zVW7Ee9H)
 
 ### Getting Started with Shared VPC
 
-![in28minutes slide image](other/images/cloud_vpc/10_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1nZ01koPIjY1fwHj-cHM_nuNpcDRz27m0)
 
 ### Getting Started with VPC Peering
 
-![in28minutes slide image](other/images/cloud_vpc/11_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Cj4VENT8aWEFp0Du7vgPlkG3cKr1nBOw)
 
 ### Implementing Hybrid Cloud with Cloud VPN and Cloud Interconnect
 
-![in28minutes slide image](other/images/cloud_vpc/12_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1RRjyf8DDv9ZtUOwN_77YCd0ewPw2mJcw)
 
-![in28minutes slide image](other/images/cloud_vpc/13_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1aJteByW3x1bk2J34hjhSdXTgp0LvGCvQ)
 
-![in28minutes slide image](other/images/cloud_vpc/14_cloud_vpc.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1cxxR6sxmbs2j5fCBVGCsULVdiaAquQVn)
 
 Readings:
 
@@ -2009,11 +2009,11 @@ However, maintaining applications and maintaining them in production is very imp
 
 ### Getting Started with Google Cloud Monitoring
 
-![in28minutes slide image](other/images/cloud_operations/1_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1wDjr6VfftmdV-frsm_hWgaQd7FmiklcG)
 
-![in28minutes slide image](other/images/cloud_operations/2_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1VFCKJOVhP4KAHlKgbYB1P4Rgvx0equOa)
 
-![in28minutes slide image](other/images/cloud_operations/3_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11RXsOnMVbk41xQqOp-E9VxTvcCUDPXQD)
 
 Readings:
 
@@ -2021,25 +2021,25 @@ Readings:
 
 ### Getting Started with Google Cloud Logging
 
-![in28minutes slide image](other/images/cloud_operations/4_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xMYFzlGL3sbvVkUeQV6bM83gL_CDcxrz)
 
-![in28minutes slide image](other/images/cloud_operations/5_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=10dZMEKwcbpCL2aGrajwkF9DA3hL1tuZ2)
 
 ### Exploring Google Cloud Logging - Audit Logs
 
-![in28minutes slide image](other/images/cloud_operations/6_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1toZCzo6TVarH0rTNkjhsU1ykWS-SAntz)
 
-![in28minutes slide image](other/images/cloud_operations/7_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1okjrG1UQu_KK8J4CtNTDOA0QUFgRVK09)
 
-![in28minutes slide image](other/images/cloud_operations/8_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1j0NI1vRn8vHAf2x05feLpEYzWClDGo6U)
 
 ### Exploring Google Cloud Logging - Routing Logs and Exports
 
-![in28minutes slide image](other/images/cloud_operations/9_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1gF_UQykf5dTCL1jmpS62HsmsWSRIR1sM)
 
-![in28minutes slide image](other/images/cloud_operations/10_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=16GXHOZRmD_ABBKad1jVhRqxVZrJB8t6v)
 
-![in28minutes slide image](other/images/cloud_operations/11_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1O7dTMg4IbPUF1-6UPlpFbIDx9G-5BwMl)
 
 Readings:
 
@@ -2053,7 +2053,7 @@ The whole purpose of this exercise is to demonstrate the cloud logging.
 
 ### Getting Started with Google Cloud Trace
 
-![in28minutes slide image](other/images/cloud_operations/12_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1KfhnActw7FHRW46Ej2AGKsb25gzOP7dl)
 
 Readings:
 
@@ -2061,25 +2061,25 @@ Readings:
 
 ### Getting Started with Google Cloud Debugger
 
-![in28minutes slide image](other/images/cloud_operations/13_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=13Yh93MpTWyX6Zoxdswn8Bu1Txz6qylhp)
 
 ### Cloud Profiler and Error Reporting
 
-![in28minutes slide image](other/images/cloud_operations/14_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1V9R7xhckSyr8hVUqWwQtJh1wGdDOJrlN)
 
-![in28minutes slide image](other/images/cloud_operations/15_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1HVIaEfK9VQmzmRdMBuBoEN_f7V8wag_v)
 
 ### Scenarios - Operations in GCP
 
-![in28minutes slide image](other/images/cloud_operations/16_cloud_operations.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1GeGd-b_iI9SgzxGk-DpndSmKkWjoNOux)
 
 ## Organizations and IAM - Organizing Google Cloud Resources
 
 ### Organizing Google Cloud Resources - Projects, Folders and Organization
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/1_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1hfB9lZGanDOVESFIZXxxk3hbzw0NkrEo)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/2_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1mSIY9TR91Cu7f4-B-c_yxHaJshvrSGRG)
 
 > Note
 >
@@ -2091,27 +2091,27 @@ Readings:
 
 ### Exploring Billing Accounts
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/3_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1BCHl72VgN6nJpvQN97oAELhyObSqi8Wx)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/4_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Q2OEj0SckqeUb6mJiM5iQfJiYdSLSOtQ)
 
 ### Understanding IAM Best Practice
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/5_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1UuzZno0VUY2_Klc0T7QfR-lk1lAFee4o)
 
 ### Understanding User Identity Management in GCP
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/6_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1gsZgKUKCOqWaNPubqLe8z1jaV96dqE6n)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/7_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=15E5sXVIaCQFL0CfQyJ7iOd4Qb-VDMnAt)
 
 ### Exploring IAM Members and Identities
 
 Let's look at different types of IAM Members or Identities:
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/8_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1AoY3EJG8DihoO3KiDd-DvrM5xsh3uJsC)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/9_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1ulpI1kqmjxTWmNCof_7FGpv23KpGVy0c)
 
 Readings:
 
@@ -2120,7 +2120,7 @@ Readings:
 
 ### Understanding Organization Policy Service
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/10_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1J11RmvfJKFFsiH68ofhSKJlwwvPmRSlL)
 
 > Note
 >
@@ -2128,7 +2128,7 @@ Readings:
 
 ### Exploring IAM policy at multiple levels - Resource Hierarchy
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/11_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1WKEiIvaltGfs1V1iUBPhj0bgzWtYqE7v)
 
 Readings:
 
@@ -2136,57 +2136,57 @@ Readings:
 
 ### Exploring IAM Predefined Roles - Organization, Billing and Project
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/12_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1a7Pe45Z11yhoE38OQ6JxU9iDiCxvJeW5)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/13_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Xn-kn1q2-0A4v4zsf1ZCtX90-9y0XRR9)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/14_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xV6AKgPWCyONnxp6r1nWF8yACgH_zfDh)
 
 ### Exploring IAM Predefined Roles - Google Compute Engine
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/15_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1DcfDfE2iRAmDGgZtcsbgBtGkIBrJmRe2)
 
 ### Exploring IAM Predefined Roles - Google App Engine
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/16_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1LyMaLyYCYViGcz0Tij7M9rJJDBLTAOxB)
 
 ### Exploring IAM Predefined Roles - Scenarios
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/17_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1xnON9GUykhQh6jWoxwKlmzvp0ir_yz6M)
 
 ### Exploring IAM Predefined Roles - Google Kubernetes Engine
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/18_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1P8pce-D3LmNAGoZjYEIKrz9A_xSFgInr)
 
 ### Exploring IAM Predefined Roles - Google Cloud Storage
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/19_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1WhLqD2OWR_XV_lrhVgpri_GudtQ_LVBK)
 
 ### Exploring IAM Predefined Roles - Google Cloud BigQuery
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/20_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1-iz03ohpskXlUNA6YZDFyD4WWQE_RnPK)
 
 ### Exploring IAM Predefined Roles - Logging Service Accounts
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/21_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=14M-Qi_sb731esgNIVoz7DB5gigsg-BBl)
 
 ### Other Important IAM Roles
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/22_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1fWULgszOkUaL3CR8OAsEEIVAYJnRFhs1)
 
 ### SSHing into Linux VMs
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/23_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1k-PP47KTLkyFO70GWtQwtJJKw5qBVkcB)
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/24_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1NLhcctVJWAw-jD2l-fQ5v5o-SLcL_4zt)
 
 ### Exploring IAM Scenarios
 
-![in28minutes slide image](other/images/cloud_organisation_and_iam/25_cloud_organisation_and_iam.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1_m3VJW30Qv71690p_dzPh-HEAGQ1umMd)
 
 ## Exploring Google Cloud Platform - GCP - Pricing Calculator
 
-![in28minutes slide image](other/images/cloud_pricing_calculator/1_cloud_pricing_calculator.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1Jnh35mT4BBGmbXgjzsngK2tzzAc72EUl)
 
 Click here to access [Google Price Calculator](https://cloud.google.com/products/calculator).
 
@@ -2194,31 +2194,31 @@ Click here to access [Google Price Calculator](https://cloud.google.com/products
 
 ### Getting Started with Cloud Deployment Manager
 
-![in28minutes slide image](other/images/cloud_other_imp_services/1_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1NDw4YUsvqd_skV2o22idYxsLRDhmJw-v)
 
-![in28minutes slide image](other/images/cloud_other_imp_services/2_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1yl6we-EULuOqa972cptLIhulsHi9MUQP)
 
 ### Understanding Cloud Deployment Manager
 
-![in28minutes slide image](other/images/cloud_other_imp_services/3_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=11uhOg2I3zJ7aODfSXlFJIucXWv-NfmyI)
 
-![in28minutes slide image](other/images/cloud_other_imp_services/4_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1GBq2Y7EKkUbwOqDv52fqnvj4nYd8IydE)
 
-![in28minutes slide image](other/images/cloud_other_imp_services/5_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1v8Ie7AnppJqxVm-x6pFVScUl25TnT7P1)
 
 ### Getting Started with Cloud Marketplace
 
-![in28minutes slide image](other/images/cloud_other_imp_services/6_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=152fdO9aHJCMVhAvyeweVdwiTv5ESshfx)
 
 ### Getting Started with Cloud DNS
 
-![in28minutes slide image](other/images/cloud_other_imp_services/7_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1H7LgcnkVDUJ--AWuVdAqLjLTElpA1vTM)
 
-![in28minutes slide image](other/images/cloud_other_imp_services/8_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1NacOm6vNbVfS_z24PosaRVxlg4mLL_El)
 
 ### Getting Started with Cloud Dataflow
 
-![in28minutes slide image](other/images/cloud_other_imp_services/9_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1nyzrNDrY9AttC243kusw3Ve8bGkYH2xC)
 
 Readings:
 
@@ -2226,7 +2226,7 @@ Readings:
 
 ### Getting Started with Cloud Dataproc
 
-![in28minutes slide image](other/images/cloud_other_imp_services/10_cloud_other_imp_services.png)
+![in28minutes slide image](https://drive.google.com/uc?export=view&id=1d2WO-E4c_5GXjrRbSidFdIqBpace_ehG)
 
 Readings:
 
